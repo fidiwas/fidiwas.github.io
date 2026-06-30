@@ -1,0 +1,39 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7fbff"/>
+      <stop offset="1" stop-color="#ecfff7"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#234055" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <text x="70" y="58" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#16b89c">The Signal / Сигнал</text>
+  <text x="600" y="112" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="45" font-weight="900" fill="#111827">Кто под риском?</text>
+  <text x="600" y="154" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="600" fill="#667085">И кто, наоборот, становится сильнее</text>
+
+  <g filter="url(#shadow)" font-family="Inter, Arial, sans-serif">
+    <rect x="84" y="216" width="486" height="346" rx="34" fill="#ffffff"/>
+    <text x="327" y="278" text-anchor="middle" font-size="31" font-weight="900" fill="#b42318">под риском</text>
+    <rect x="136" y="324" width="382" height="62" rx="20" fill="#fff2f0"/>
+    <text x="327" y="363" text-anchor="middle" font-size="22" font-weight="900" fill="#7a271a">только черновики</text>
+    <rect x="136" y="410" width="382" height="62" rx="20" fill="#fff2f0"/>
+    <text x="327" y="449" text-anchor="middle" font-size="22" font-weight="900" fill="#7a271a">ручной перенос данных</text>
+    <rect x="136" y="496" width="382" height="62" rx="20" fill="#fff2f0"/>
+    <text x="327" y="535" text-anchor="middle" font-size="22" font-weight="900" fill="#7a271a">нет видимого результата</text>
+  </g>
+
+  <g filter="url(#shadow)" font-family="Inter, Arial, sans-serif">
+    <rect x="630" y="216" width="486" height="346" rx="34" fill="#ffffff"/>
+    <text x="873" y="278" text-anchor="middle" font-size="31" font-weight="900" fill="#027a48">сильнее</text>
+    <rect x="682" y="324" width="382" height="62" rx="20" fill="#ecfdf3"/>
+    <text x="873" y="363" text-anchor="middle" font-size="22" font-weight="900" fill="#05603a">ставит задачу</text>
+    <rect x="682" y="410" width="382" height="62" rx="20" fill="#ecfdf3"/>
+    <text x="873" y="449" text-anchor="middle" font-size="22" font-weight="900" fill="#05603a">проверяет ответ</text>
+    <rect x="682" y="496" width="382" height="62" rx="20" fill="#ecfdf3"/>
+    <text x="873" y="535" text-anchor="middle" font-size="22" font-weight="900" fill="#05603a">отвечает за решение</text>
+  </g>
+
+  <text x="600" y="625" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#1f2937">ИИ усиливает тех, кто умеет превращать ответ в результат</text>
+</svg>

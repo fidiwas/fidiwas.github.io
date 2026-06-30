@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#f7f4ef"/>
+  <rect x="48" y="36" width="226" height="42" rx="21" fill="#132033"/>
+  <text x="68" y="63" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff">The Signal / Сигнал</text>
+  <text x="600" y="114" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="900" fill="#101828">Настоящая цена AI-гаджета</text>
+  <text x="600" y="152" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="600" fill="#667085">она складывается не только из чека на кассе</text>
+
+  <g fill="#ffffff" stroke="#e1d9cb" stroke-width="2">
+    <rect x="124" y="222" width="258" height="112" rx="24"/>
+    <rect x="471" y="222" width="258" height="112" rx="24"/>
+    <rect x="818" y="222" width="258" height="112" rx="24"/>
+    <rect x="124" y="412" width="258" height="112" rx="24"/>
+    <rect x="471" y="412" width="258" height="112" rx="24"/>
+    <rect x="818" y="412" width="258" height="112" rx="24"/>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif" fill="#101828">
+    <text x="253" y="272" text-anchor="middle" font-size="27" font-weight="900">чек на кассе</text>
+    <text x="253" y="306" text-anchor="middle" font-size="20" font-weight="700" fill="#667085">цена коробки</text>
+    <text x="600" y="272" text-anchor="middle" font-size="27" font-weight="900">подписка</text>
+    <text x="600" y="306" text-anchor="middle" font-size="20" font-weight="700" fill="#667085">месяц за месяцем</text>
+    <text x="947" y="272" text-anchor="middle" font-size="27" font-weight="900">облако</text>
+    <text x="947" y="306" text-anchor="middle" font-size="20" font-weight="700" fill="#667085">серверы и модели</text>
+    <text x="253" y="462" text-anchor="middle" font-size="27" font-weight="900">данные</text>
+    <text x="253" y="496" text-anchor="middle" font-size="20" font-weight="700" fill="#667085">голос, дом, здоровье</text>
+    <text x="600" y="462" text-anchor="middle" font-size="27" font-weight="900">регион</text>
+    <text x="600" y="496" text-anchor="middle" font-size="20" font-weight="700" fill="#667085">где функция доступна</text>
+    <text x="947" y="462" text-anchor="middle" font-size="27" font-weight="900">отмена</text>
+    <text x="947" y="496" text-anchor="middle" font-size="20" font-weight="700" fill="#667085">что останется потом</text>
+  </g>
+
+  <g fill="#0f766e">
+    <circle cx="253" cy="198" r="9"/>
+    <circle cx="600" cy="198" r="9"/>
+    <circle cx="947" cy="198" r="9"/>
+    <circle cx="253" cy="548" r="9"/>
+    <circle cx="600" cy="548" r="9"/>
+    <circle cx="947" cy="548" r="9"/>
+  </g>
+  <path d="M253 198h694M253 548h694M253 198v350M600 198v350M947 198v350" stroke="#c9bda9" stroke-width="3" opacity="0.65"/>
+</svg>

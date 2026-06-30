@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="0.55" stop-color="#182033"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e0f2fe"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect x="0" y="548" width="1200" height="127" fill="#06111f" opacity="0.76"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="72" y="72" font-size="22" font-weight="700" fill="#5eead4">The Signal / Сигнал</text>
+    <text x="72" y="176" font-size="56" font-weight="850" fill="#ffffff">Умный дом</text>
+    <text x="72" y="246" font-size="56" font-weight="850" fill="#ffffff">просит подписку</text>
+    <text x="74" y="338" font-size="38" font-weight="850" fill="#fef3c7">Почему удобство</text>
+    <text x="74" y="390" font-size="38" font-weight="850" fill="#fef3c7">снова стало платным</text>
+    <text x="78" y="482" font-size="27" fill="#dbeafe">Купили устройство. Теперь смотрим,</text>
+    <text x="78" y="522" font-size="27" fill="#dbeafe">что останется без облака и тарифа.</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="746" y="100" width="376" height="430" rx="24" fill="url(#card)"/>
+    <path d="M842 284 L934 206 L1026 284 V414 H842 Z" fill="#0f766e"/>
+    <rect x="898" y="334" width="72" height="80" rx="8" fill="#ccfbf1"/>
+    <rect x="876" y="286" width="46" height="42" rx="8" fill="#ecfeff"/>
+    <rect x="946" y="286" width="46" height="42" rx="8" fill="#ecfeff"/>
+    <rect x="818" y="446" width="232" height="48" rx="24" fill="#fff7ed"/>
+    <text x="934" y="477" text-anchor="middle" font-size="20" font-weight="850" fill="#9a3412">тариф активен</text>
+    <text x="934" y="164" text-anchor="middle" font-size="25" font-weight="850" fill="#0f172a">Smart Home</text>
+  </g>
+  <text x="600" y="626" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="850" fill="#ffffff">Настоящая цена начинается после подключения</text>
+</svg>

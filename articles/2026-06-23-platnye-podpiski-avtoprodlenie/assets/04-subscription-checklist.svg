@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.55" stop-color="#0b1c30"/>
+      <stop offset="1" stop-color="#083344"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#dbeafe"/>
+    </linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="16"/></filter>
+  </defs>
+  <rect x="0" y="0" width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="980" cy="120" r="160" fill="#0ea5e9" opacity="0.16" filter="url(#soft)"/>
+  <circle cx="170" cy="560" r="170" fill="#22c55e" opacity="0.12" filter="url(#soft)"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="70" y="76" font-size="22" font-weight="800" fill="#7dd3fc">The Signal / Сигнал</text>
+    <text x="70" y="146" font-size="52" font-weight="900" fill="#ffffff">Проверьте подписки сегодня</text>
+    <text x="72" y="194" font-size="25" fill="#cbd5e1">Четыре действия без паники и юриста</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="96" y="270" width="470" height="112" rx="26" fill="url(#card)" stroke="#93c5fd" stroke-width="2"/>
+    <text x="143" y="337" text-anchor="middle" font-size="34" font-weight="900" fill="#0284c7">1</text>
+    <text x="350" y="313" text-anchor="middle" font-size="25" font-weight="900" fill="#0f172a">Найдите списания</text>
+    <text x="350" y="353" text-anchor="middle" font-size="20" font-weight="700" fill="#475569">99, 399, 799, 1490 ₽</text>
+    <rect x="634" y="270" width="470" height="112" rx="26" fill="url(#card)" stroke="#5eead4" stroke-width="2"/>
+    <text x="681" y="337" text-anchor="middle" font-size="34" font-weight="900" fill="#0d9488">2</text>
+    <text x="888" y="313" text-anchor="middle" font-size="25" font-weight="900" fill="#0f172a">Отмените в сервисе</text>
+    <text x="888" y="353" text-anchor="middle" font-size="20" font-weight="700" fill="#475569">удалить приложение мало</text>
+    <rect x="96" y="428" width="470" height="112" rx="26" fill="url(#card)" stroke="#facc15" stroke-width="2"/>
+    <text x="143" y="495" text-anchor="middle" font-size="34" font-weight="900" fill="#ca8a04">3</text>
+    <text x="350" y="471" text-anchor="middle" font-size="25" font-weight="900" fill="#0f172a">Сохраните скрин</text>
+    <text x="350" y="511" text-anchor="middle" font-size="20" font-weight="700" fill="#475569">дата, письмо, номер обращения</text>
+    <rect x="634" y="428" width="470" height="112" rx="26" fill="url(#card)" stroke="#fb7185" stroke-width="2"/>
+    <text x="681" y="495" text-anchor="middle" font-size="34" font-weight="900" fill="#e11d48">4</text>
+    <text x="888" y="471" text-anchor="middle" font-size="25" font-weight="900" fill="#0f172a">Отключите карту</text>
+    <text x="888" y="511" text-anchor="middle" font-size="20" font-weight="700" fill="#475569">если есть отдельный отказ</text>
+  </g>
+  <rect x="270" y="588" width="660" height="54" rx="20" fill="#071421" stroke="#34d399" stroke-opacity="0.7"/>
+  <text x="600" y="623" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="900" fill="#ecfeff">Цель — не спорить, а оставить след отказа</text>
+</svg>

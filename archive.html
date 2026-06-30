@@ -1,0 +1,1156 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<link rel="icon" href="/favicon.ico" sizes="any" />
+<link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" href="/favicon-64.png" />
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Материалы · The Signal</title>
+  
+<link rel="canonical" href="https://fidiwas.github.io/days.html" />
+<meta name="description" content="Актуальные материалы сверху. Прошедшие дни автоматически уходят в архив." />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="The Signal / Сигнал" />
+<meta property="og:title" content="The Signal / Сигнал · Материалы" />
+<meta property="og:description" content="Актуальные материалы сверху. Прошедшие дни автоматически уходят в архив." />
+<meta property="og:url" content="https://fidiwas.github.io/days.html" />
+<meta property="og:image" content="https://fidiwas.github.io/panel_assets/social-preview.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="The Signal / Сигнал · Материалы" />
+<meta name="twitter:description" content="Актуальные материалы сверху. Прошедшие дни автоматически уходят в архив." />
+<meta name="twitter:image" content="https://fidiwas.github.io/panel_assets/social-preview.png" />
+
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f7fb;
+      --surface: #ffffff;
+      --surface-soft: #f8fbff;
+      --line: #dce5f2;
+      --line-strong: #b8cdf6;
+      --text: #111827;
+      --muted: #687589;
+      --muted-soft: #8a96a8;
+      --accent: #2563eb;
+      --green: #139a57;
+      --green-bg: #eafaf1;
+    }
+    * { box-sizing: border-box; }
+    html { min-height: 100%; background: var(--bg); }
+    body {
+      margin: 0;
+      min-height: 100svh;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 9% 3%, rgba(225, 236, 255, .76), transparent 31rem),
+        radial-gradient(circle at 88% 12%, rgba(224, 244, 255, .68), transparent 30rem),
+        linear-gradient(180deg, #fbfdff 0%, #f5f7fb 48%, #eef3fa 100%);
+      padding: max(28px, env(safe-area-inset-top)) clamp(18px, 4vw, 56px) max(40px, env(safe-area-inset-bottom));
+    }
+    .shell {
+      width: min(100%, 1280px);
+      margin: 0 auto;
+    }
+    .topline {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 18px;
+      margin: 0 0 clamp(26px, 5vw, 54px);
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-width: 0;
+      color: var(--text);
+      font-size: 20px;
+      font-weight: 900;
+      letter-spacing: 0;
+      text-decoration: none;
+    }
+    .brand img {
+      width: 48px;
+      height: 48px;
+      border-radius: 16px;
+      box-shadow: 0 12px 34px rgba(31, 45, 73, .18);
+    }
+    .login-link {
+      flex: 0 0 auto;
+      min-height: 44px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 18px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      color: var(--text);
+      background: rgba(255, 255, 255, .74);
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 800;
+    }
+    .hero {
+      max-width: 860px;
+      margin-bottom: clamp(28px, 5vw, 54px);
+    }
+    h1 {
+      margin: 0 0 16px;
+      font-size: clamp(46px, 7.8vw, 94px);
+      line-height: .94;
+      letter-spacing: 0;
+      font-weight: 900;
+    }
+    p {
+      max-width: 720px;
+      margin: 0;
+      color: var(--muted);
+      font-size: clamp(18px, 2vw, 22px);
+      line-height: 1.45;
+    }
+    .section-block {
+      margin-top: 30px;
+      padding: clamp(18px, 2vw, 24px);
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      background: rgba(255, 255, 255, .72);
+      box-shadow: 0 28px 80px rgba(31, 45, 73, .08);
+    }
+    .section-heading {
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+      align-items: end;
+      margin: 0 0 18px;
+    }
+    .section-heading h2 {
+      margin: 0;
+      font-size: clamp(28px, 3vw, 38px);
+      line-height: 1.05;
+      letter-spacing: 0;
+      font-weight: 900;
+    }
+    .section-heading p {
+      margin: 0;
+      max-width: 440px;
+      color: var(--muted);
+      font-size: 15px;
+      text-align: right;
+    }
+    .days-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+    .day-card {
+      min-height: 236px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      padding: clamp(18px, 2.2vw, 26px);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      color: inherit;
+      text-decoration: none;
+      background: linear-gradient(180deg, rgba(255, 255, 255, .96), rgba(251, 253, 255, .9));
+      box-shadow: 0 14px 44px rgba(27, 38, 61, .05);
+      transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease, background .18s ease;
+      cursor: pointer;
+    }
+    .day-card:hover,
+    .day-card:focus-visible {
+      transform: translateY(-3px);
+      border-color: var(--line-strong);
+      background: linear-gradient(180deg, #ffffff, #f7fbff);
+      box-shadow: 0 22px 56px rgba(37, 99, 235, .12);
+      outline: none;
+    }
+    .day-card__meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+    .day-card__type {
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+    .day-card__state {
+      display: inline-flex;
+      align-items: center;
+      min-height: 30px;
+      padding: 6px 12px;
+      border-radius: 999px;
+      color: var(--green);
+      background: var(--green-bg);
+      font-size: 13px;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+    .day-card__date {
+      display: block;
+      font-size: clamp(30px, 3.2vw, 42px);
+      line-height: 1;
+      font-weight: 900;
+      letter-spacing: 0;
+    }
+    strong {
+      max-width: 760px;
+      font-size: clamp(20px, 2vw, 25px);
+      line-height: 1.18;
+      letter-spacing: 0;
+      font-weight: 900;
+    }
+    .day-card__hint {
+      margin-top: auto;
+      color: var(--accent);
+      font-size: 15px;
+      font-weight: 900;
+      opacity: .84;
+    }
+    .empty {
+      margin: 0;
+      color: var(--muted);
+    }
+    .archive-block {
+      margin-bottom: 24px;
+    }
+    @media (max-width: 860px) {
+      body {
+        padding: max(22px, env(safe-area-inset-top)) 16px max(34px, env(safe-area-inset-bottom));
+      }
+      .topline {
+        margin-bottom: 34px;
+      }
+      .brand {
+        font-size: 19px;
+      }
+      .brand img {
+        width: 44px;
+        height: 44px;
+        border-radius: 14px;
+      }
+      .login-link {
+        display: none;
+      }
+      .hero {
+        margin-bottom: 26px;
+      }
+      h1 {
+        font-size: clamp(44px, 14vw, 64px);
+        line-height: .96;
+      }
+      p {
+        font-size: 19px;
+      }
+      .section-heading { display: block; }
+      .section-heading p { margin-top: 8px; text-align: left; }
+      .section-block {
+        margin-top: 22px;
+        padding: 14px;
+        border-radius: 24px;
+      }
+      .days-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+      }
+      .day-card {
+        min-height: 188px;
+        border-radius: 22px;
+      }
+      .day-card__date {
+        font-size: 32px;
+      }
+      strong {
+        font-size: 22px;
+        line-height: 1.2;
+      }
+    }
+    @media (max-width: 420px) {
+      body {
+        padding-left: 14px;
+        padding-right: 14px;
+      }
+      h1 {
+        font-size: 46px;
+      }
+      p {
+        font-size: 17px;
+      }
+      .section-block {
+        padding: 12px;
+      }
+      .day-card {
+        padding: 18px;
+      }
+    }
+  </style>
+
+<style id="signal-auth-prehide">
+  html.signal-auth-pending body {
+    visibility: hidden;
+  }
+</style>
+<script>document.documentElement.classList.add("signal-auth-pending");</script>
+
+</head>
+<body>
+  <main class="shell">
+    <nav class="topline" aria-label="Навигация">
+      <a class="brand" href="/days.html">
+        <img src="/favicon-64.png" alt="" />
+        <span>The Signal</span>
+      </a>
+      <a class="login-link" href="/login?next=/posts/2026-07-01-pered-knopkoy-razreshit-odin-vopros/dzen.html">Вход</a>
+    </nav>
+    <header class="hero">
+      <h1>Материалы</h1>
+      <p>Актуальные материалы сверху. Прошедшие дни автоматически уходят в архив.</p>
+    </header>
+    <section class="section-block">
+      <div class="section-heading">
+        <h2>Ближайшие дни</h2>
+        <p>Сегодня и будущие материалы открываются прямо из карточки.</p>
+      </div>
+      <div class="days-grid" id="current-grid">
+      <a class="day-card" href="posts/2026-07-01-pered-knopkoy-razreshit-odin-vopros/dzen.html" data-date="2026-07-01" aria-label="Открыть материал: Перед кнопкой “Разрешить” задайте один вопрос">
+  <div class="day-card__meta">
+    <span class="day-card__type">Пост</span>
+    <span class="day-card__state">Сегодня</span>
+  </div>
+  <span class="day-card__date">1 июля</span>
+  <strong>Перед кнопкой “Разрешить” задайте один вопрос</strong>
+  <span class="day-card__hint">Открыть материал</span>
+</a>
+<a class="day-card" href="articles/2026-07-02-gadzhet-kuplen-ai-funkcii-po-tarifu/dzen.html" data-date="2026-07-02" aria-label="Открыть материал: Гаджет куплен. Почему AI-функции все чаще идут по тарифу?">
+  <div class="day-card__meta">
+    <span class="day-card__type">Дзен</span>
+    <span class="day-card__state">В плане</span>
+  </div>
+  <span class="day-card__date">2 июля</span>
+  <strong>Гаджет куплен. Почему AI-функции все чаще идут по тарифу?</strong>
+  <span class="day-card__hint">Открыть материал</span>
+</a>
+      </div>
+    </section>
+
+    <section class="section-block archive-block">
+      <div class="section-heading">
+        <h2>Архив</h2>
+        <p>Прошедшие материалы остаются здесь, без смешивания с текущим планом.</p>
+      </div>
+      <div class="days-grid" id="archive-grid">
+        <a class="day-card" href="articles/2026-06-30-ai-menyaet-rabotu-zarplata/dzen.html" data-date="2026-06-30" aria-label="Открыть материал: ИИ уже меняет работу. Кто первым потеряет зарплату?">
+  <div class="day-card__meta">
+    <span class="day-card__type">Дзен</span>
+    <span class="day-card__state">Архив</span>
+  </div>
+  <span class="day-card__date">30 июня</span>
+  <strong>ИИ уже меняет работу. Кто первым потеряет зарплату?</strong>
+  <span class="day-card__hint">Открыть материал</span>
+</a>
+<a class="day-card" href="articles/2026-06-29-umnyy-dom-prosit-podpisku/dzen.html" data-date="2026-06-29" aria-label="Открыть материал: ИИ от OpenAI дадут не всем. Кто получит фору первым?">
+  <div class="day-card__meta">
+    <span class="day-card__type">Дзен</span>
+    <span class="day-card__state">Архив</span>
+  </div>
+  <span class="day-card__date">29 июня</span>
+  <strong>ИИ от OpenAI дадут не всем. Кто получит фору первым?</strong>
+  <span class="day-card__hint">Открыть материал</span>
+</a>
+<a class="day-card" href="articles/2026-06-28-ai-agenty-pokupki-karta-agentic-commerce/dzen.html" data-date="2026-06-28" aria-label="Открыть материал: ИИ пустят к вашей карте. Кто ответит за покупку?">
+  <div class="day-card__meta">
+    <span class="day-card__type">Дзен</span>
+    <span class="day-card__state">Архив</span>
+  </div>
+  <span class="day-card__date">28 июня</span>
+  <strong>ИИ пустят к вашей карте. Кто ответит за покупку?</strong>
+  <span class="day-card__hint">Открыть материал</span>
+</a>
+<a class="day-card" href="posts/2026-06-27-odin-vopros-pered-podpiskoy-kak-ostanovit-spisanie/dzen.html" data-date="2026-06-27" aria-label="Открыть материал: Подписка просит карту. Где кнопка отмены?">
+  <div class="day-card__meta">
+    <span class="day-card__type">Пост</span>
+    <span class="day-card__state">Архив</span>
+  </div>
+  <span class="day-card__date">27 июня</span>
+  <strong>Подписка просит карту. Где кнопка отмены?</strong>
+  <span class="day-card__hint">Открыть материал</span>
+</a>
+<a class="day-card" href="articles/2026-06-26-ai-npc-igry-zhivoy-servis/dzen.html" data-date="2026-06-26" aria-label="Открыть материал: Персонажи в играх оживают. Кто за это заплатит?">
+  <div class="day-card__meta">
+    <span class="day-card__type">Дзен</span>
+    <span class="day-card__state">Архив</span>
+  </div>
+  <span class="day-card__date">26 июня</span>
+  <strong>Персонажи в играх оживают. Кто за это заплатит?</strong>
+  <span class="day-card__hint">Открыть материал</span>
+</a>
+<a class="day-card" href="articles/2026-06-25-rezume-chitaet-algoritm-ai-naem/dzen.html" data-date="2026-06-25" aria-label="Открыть материал: Не зовут на собеседование? Что проверить">
+  <div class="day-card__meta">
+    <span class="day-card__type">Дзен</span>
+    <span class="day-card__state">Архив</span>
+  </div>
+  <span class="day-card__date">25 июня</span>
+  <strong>Не зовут на собеседование? Что проверить</strong>
+  <span class="day-card__hint">Открыть материал</span>
+</a>
+<a class="day-card" href="articles/2026-06-24-kredit-ne-desheveet-key-rate/dzen.html" data-date="2026-06-24" aria-label="Открыть материал: Кредит не дешевеет? Что проверить сейчас">
+  <div class="day-card__meta">
+    <span class="day-card__type">Дзен</span>
+    <span class="day-card__state">Архив</span>
+  </div>
+  <span class="day-card__date">24 июня</span>
+  <strong>Кредит не дешевеет? Что проверить сейчас</strong>
+  <span class="day-card__hint">Открыть материал</span>
+</a>
+<a class="day-card" href="posts/2026-06-24-5-priznakov-skidka-ne-tak-prosta/dzen.html" data-date="2026-06-24" aria-label="Открыть материал: 5 признаков, что скидка на маркетплейсе не так проста">
+  <div class="day-card__meta">
+    <span class="day-card__type">Пост</span>
+    <span class="day-card__state">Архив</span>
+  </div>
+  <span class="day-card__date">24 июня</span>
+  <strong>5 признаков, что скидка на маркетплейсе не так проста</strong>
+  <span class="day-card__hint">Открыть материал</span>
+</a>
+<a class="day-card" href="articles/2026-06-23-platnye-podpiski-avtoprodlenie/dzen.html" data-date="2026-06-23" aria-label="Открыть материал: Списали за подписку? Что проверить сразу">
+  <div class="day-card__meta">
+    <span class="day-card__type">Дзен</span>
+    <span class="day-card__state">Архив</span>
+  </div>
+  <span class="day-card__date">23 июня</span>
+  <strong>Списали за подписку? Что проверить сразу</strong>
+  <span class="day-card__hint">Открыть материал</span>
+</a>
+<a class="day-card" href="articles/2026-06-22-ai-piloty-ne-stanovyatsya-ekonomiey/dzen.html" data-date="2026-06-22" aria-label="Открыть материал: ИИ внедрили, а денег нет. Почему бизнес застревает на пилотах?">
+  <div class="day-card__meta">
+    <span class="day-card__type">Дзен</span>
+    <span class="day-card__state">Архив</span>
+  </div>
+  <span class="day-card__date">22 июня</span>
+  <strong>ИИ внедрили, а денег нет. Почему бизнес застревает на пилотах?</strong>
+  <span class="day-card__hint">Открыть материал</span>
+</a>
+<a class="day-card" href="articles/2026-06-21-internet-chitayut-ai-agenty/dzen.html" data-date="2026-06-21" aria-label="Открыть материал: ИИ уже выбирает сайты за вас. Почему это опаснее, чем кажется?">
+  <div class="day-card__meta">
+    <span class="day-card__type">Дзен</span>
+    <span class="day-card__state">Архив</span>
+  </div>
+  <span class="day-card__date">21 июня</span>
+  <strong>ИИ уже выбирает сайты за вас. Почему это опаснее, чем кажется?</strong>
+  <span class="day-card__hint">Открыть материал</span>
+</a>
+<a class="day-card" href="posts/2026-06-20-chto-pokupatelyu-proveryat-v-kartochke-tovara-posle-novyh-pravil/dzen.html" data-date="2026-06-20" aria-label="Открыть материал: Перед оплатой на маркетплейсе проверьте 4 вещи. Потом спорить будет поздно">
+  <div class="day-card__meta">
+    <span class="day-card__type">Пост</span>
+    <span class="day-card__state">Архив</span>
+  </div>
+  <span class="day-card__date">20 июня</span>
+  <strong>Перед оплатой на маркетплейсе проверьте 4 вещи. Потом спорить будет поздно</strong>
+  <span class="day-card__hint">Открыть материал</span>
+</a>
+<a class="day-card" href="articles/2026-06-19-2026-10-01-zakon-o-platformennoy-ekonomike-marketpleysy/dzen.html" data-date="2026-06-19" aria-label="Открыть материал: Маркетплейсы меняют правила с 1 октября 2026. Покупатель это заметит?">
+  <div class="day-card__meta">
+    <span class="day-card__type">Дзен</span>
+    <span class="day-card__state">Архив</span>
+  </div>
+  <span class="day-card__date">19 июня</span>
+  <strong>Маркетплейсы меняют правила с 1 октября 2026. Покупатель это заметит?</strong>
+  <span class="day-card__hint">Открыть материал</span>
+</a>
+<a class="day-card" href="articles/2026-06-18-skidka-zavisit-ot-karty-marketpleysy-banki/dzen.html" data-date="2026-06-18" aria-label="Открыть материал: Почему один и тот же товар на маркетплейсе стоит по-разному?">
+  <div class="day-card__meta">
+    <span class="day-card__type">Дзен</span>
+    <span class="day-card__state">Архив</span>
+  </div>
+  <span class="day-card__date">18 июня</span>
+  <strong>Почему один и тот же товар на маркетплейсе стоит по-разному?</strong>
+  <span class="day-card__hint">Открыть материал</span>
+</a>
+      </div>
+    </section>
+
+  </main>
+
+  <script>
+    (() => {
+      const today = new Date();
+      const local = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+      const key = [
+        local.getFullYear(),
+        String(local.getMonth() + 1).padStart(2, "0"),
+        String(local.getDate()).padStart(2, "0")
+      ].join("-");
+      const current = document.getElementById("current-grid");
+      const archive = document.getElementById("archive-grid");
+      if (!current || !archive) return;
+      document.querySelectorAll(".day-card[data-date]").forEach((card) => {
+        const date = card.getAttribute("data-date") || "";
+        if (date && date < key) archive.appendChild(card);
+        else current.appendChild(card);
+      });
+      for (const grid of [current, archive]) {
+        grid.querySelectorAll(".empty").forEach((item) => item.remove());
+        if (!grid.querySelector(".day-card")) {
+          const empty = document.createElement("p");
+          empty.className = "empty";
+          empty.textContent = grid === current ? "Актуальные материалы не найдены." : "Архив пока пуст.";
+          grid.appendChild(empty);
+        }
+      }
+    })();
+  </script>
+
+
+<script>
+(() => {
+  const AUTH_USER = 'admin';
+  const AUTH_SALT = '3e45be262781a5bb53ddc3f62d950674';
+  const AUTH_DIGEST = '6e5a1817247c49d898888f13377e6949e977922104630041dbce6e2b869b1593';
+  const SESSION_KEY = 'the_signal_admin_session_v1';
+  const MAX_AGE_MS = 30 * 24 * 60 * 60 * 1000;
+
+  const enc = new TextEncoder();
+
+  async function sha256(value) {
+    const bytes = await crypto.subtle.digest("SHA-256", enc.encode(value));
+    return Array.from(new Uint8Array(bytes))
+      .map((item) => item.toString(16).padStart(2, "0"))
+      .join("");
+  }
+
+  function validStoredSession() {
+    try {
+      const raw = localStorage.getItem(SESSION_KEY);
+      if (!raw) return false;
+      const session = JSON.parse(raw);
+      return session.digest === AUTH_DIGEST && Date.now() - session.createdAt < MAX_AGE_MS;
+    } catch (_) {
+      return false;
+    }
+  }
+
+  function reveal() {
+    document.documentElement.classList.remove("signal-auth-pending");
+    const style = document.getElementById("signal-auth-prehide");
+    if (style) style.remove();
+    renderLogout();
+  }
+
+  function renderLogout() {
+    if (document.getElementById("signal-auth-logout")) return;
+    const button = document.createElement("button");
+    button.id = "signal-auth-logout";
+    button.type = "button";
+    button.innerHTML = `
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path d="M12 3v9" />
+        <path d="M7.05 6.25a8 8 0 1 0 9.9 0" />
+      </svg>
+    `;
+    button.setAttribute("aria-label", "Выйти из панели");
+    button.setAttribute("title", "Выйти");
+    button.style.cssText = [
+      "position:fixed",
+      "right:max(18px, env(safe-area-inset-right))",
+      "top:max(18px, env(safe-area-inset-top))",
+      "z-index:2147483646",
+      "width:46px",
+      "height:46px",
+      "display:grid",
+      "place-items:center",
+      "border:1px solid rgba(255,255,255,.34)",
+      "border-radius:16px",
+      "padding:0",
+      "color:#fff",
+      "background:linear-gradient(145deg, #ff5a5f 0%, #e11d2e 52%, #9f1020 100%)",
+      "box-shadow:0 14px 30px rgba(225,29,46,.28), inset 0 1px 0 rgba(255,255,255,.34)",
+      "cursor:pointer"
+    ].join(";");
+    button.querySelector("svg").style.cssText = [
+      "width:23px",
+      "height:23px",
+      "fill:none",
+      "stroke:currentColor",
+      "stroke-width:2.4",
+      "stroke-linecap:round",
+      "stroke-linejoin:round",
+      "filter:drop-shadow(0 1px 1px rgba(0,0,0,.18))"
+    ].join(";");
+    button.addEventListener("click", () => {
+      localStorage.removeItem(SESSION_KEY);
+      location.reload();
+    });
+    button.addEventListener("mouseenter", () => {
+      button.style.transform = "translateY(-1px)";
+      button.style.boxShadow = "0 18px 36px rgba(225,29,46,.34), inset 0 1px 0 rgba(255,255,255,.38)";
+    });
+    button.addEventListener("mouseleave", () => {
+      button.style.transform = "";
+      button.style.boxShadow = "0 14px 30px rgba(225,29,46,.28), inset 0 1px 0 rgba(255,255,255,.34)";
+    });
+    document.body.appendChild(button);
+  }
+
+  function renderLogin(errorText = "") {
+    document.documentElement.classList.remove("signal-auth-pending");
+    document.body.innerHTML = "";
+    const wrap = document.createElement("main");
+    wrap.innerHTML = `
+      <section class="signal-login">
+        <div class="signal-login__shell">
+          <aside class="signal-login__brand-panel">
+            <div class="signal-login__logo" aria-hidden="true">
+              <svg viewBox="0 0 44 44" fill="none">
+                <path d="M13 14h14c3.3 0 6 2.7 6 6s-2.7 6-6 6H13" stroke="currentColor" stroke-width="5.5" stroke-linecap="round"/>
+                <path d="M31 30H17c-3.3 0-6-2.7-6-6s2.7-6 6-6h14" stroke="currentColor" stroke-width="5.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h2>The Signal</h2>
+            <p>Платформа для создания<br />и публикации контента на Дзене</p>
+            <div class="signal-login__stage" aria-hidden="true">
+              <span class="signal-login__disc signal-login__disc-three"></span>
+              <span class="signal-login__disc signal-login__disc-two"></span>
+              <span class="signal-login__disc signal-login__disc-one"></span>
+              <span class="signal-login__tile"></span>
+            </div>
+          </aside>
+          <section class="signal-login__card">
+            <h1>Вход в аккаунт</h1>
+            <p>Продолжите работу с вашим аккаунтом</p>
+            <form id="signal-auth-form">
+              <label>
+                <span>Email или логин</span>
+                <span class="signal-login__field">
+                  <input name="user" autocomplete="username" placeholder="Введите email или логин" required />
+                </span>
+              </label>
+              <label>
+                <span>Пароль</span>
+                <span class="signal-login__field">
+                  <input name="password" type="password" autocomplete="current-password" placeholder="Введите пароль" required />
+                  <button type="button" class="signal-login__eye-button" aria-label="Показать пароль" aria-pressed="false">
+                    <svg class="signal-login__eye" viewBox="0 0 24 24" fill="none">
+                      <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z" stroke="currentColor" stroke-width="2"/>
+                      <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                  </button>
+                </span>
+              </label>
+              <div class="signal-login__row">
+                <label class="signal-login__remember"><input type="checkbox" name="remember" /><span aria-hidden="true"></span>Запомнить меня</label>
+                <a href="/">Забыли пароль?</a>
+              </div>
+              <button type="submit">Войти</button>
+              <div class="signal-login__divider">или</div>
+              <a class="signal-login__google" href="/">
+                <strong>G</strong>
+                <span>Войти через Google</span>
+              </a>
+              <div class="signal-login__error" aria-live="polite">${errorText}</div>
+            </form>
+            <div class="signal-login__signup">Нет аккаунта? <a href="/">Зарегистрироваться</a></div>
+          </section>
+        </div>
+      </section>
+    `;
+    const style = document.createElement("style");
+    style.textContent = `
+      * { box-sizing: border-box; }
+      html, body {
+        min-height: 100%;
+        background: #f7f9fc;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
+        color: #111827;
+        background:
+          radial-gradient(circle at 12% 10%, rgba(233, 240, 252, .92), transparent 34rem),
+          radial-gradient(circle at 92% 18%, rgba(242, 246, 252, .78), transparent 30rem),
+          linear-gradient(135deg, #ffffff 0%, #f6f8fb 100%);
+      }
+      .signal-login {
+        min-height: 100svh;
+        display: grid;
+        place-items: center;
+        padding: max(46px, env(safe-area-inset-top)) clamp(36px, 6.5vw, 118px) max(46px, env(safe-area-inset-bottom));
+        position: relative;
+        isolation: isolate;
+        overflow-x: hidden;
+        background:
+          linear-gradient(135deg, rgba(255,255,255,.96), rgba(246,248,252,.88)),
+          radial-gradient(circle at 22% 24%, rgba(228, 236, 248, .82), transparent 32rem);
+      }
+      .signal-login::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: -2;
+        background: linear-gradient(120deg, rgba(255,255,255,.52), transparent 48%, rgba(236,241,250,.48));
+        pointer-events: none;
+      }
+      .signal-login__shell {
+        width: 100%;
+        min-height: min(820px, calc(100svh - 92px));
+        display: grid;
+        grid-template-columns: minmax(440px, 1fr) 540px;
+        align-items: center;
+        justify-content: stretch;
+        gap: clamp(72px, 9vw, 180px);
+        padding: 0;
+        border: 0;
+        border-radius: 0;
+        background: transparent;
+        box-shadow: none;
+        overflow: visible;
+        position: relative;
+      }
+      .signal-login__brand-panel,
+      .signal-login__card {
+        position: relative;
+        z-index: 1;
+      }
+      .signal-login__brand-panel {
+        margin-top: 0;
+      }
+      .signal-login__logo {
+        width: 70px;
+        height: 70px;
+        border-radius: 18px;
+        display: grid;
+        place-items: center;
+        color: #fff;
+        background: linear-gradient(145deg, #252930, #06080d);
+        box-shadow: 0 20px 42px rgba(29, 38, 52, .18), inset 0 1px 0 rgba(255,255,255,.15);
+        margin-bottom: 34px;
+      }
+      .signal-login__logo svg {
+        width: 38px;
+        height: 38px;
+      }
+      .signal-login__brand-panel h2 {
+        margin: 0 0 16px;
+        color: #101827;
+        font-size: clamp(32px, 2.9vw, 40px);
+        line-height: 1;
+        font-weight: 780;
+        letter-spacing: 0;
+      }
+      .signal-login__brand-panel p {
+        margin: 0;
+        color: #818a9a;
+        font-size: clamp(18px, 1.7vw, 20px);
+        line-height: 1.42;
+      }
+      .signal-login__stage {
+        width: min(520px, 118%);
+        height: 370px;
+        margin: 84px 0 0 -18px;
+        position: relative;
+        perspective: 900px;
+      }
+      .signal-login__disc,
+      .signal-login__tile {
+        position: absolute;
+        display: block;
+        pointer-events: none;
+      }
+      .signal-login__disc {
+        border-radius: 999px;
+        background:
+          radial-gradient(circle at 28% 30%, rgba(255,255,255,.98), transparent 38%),
+          linear-gradient(145deg, #fff 0%, #f4f6f9 54%, #e8edf4 100%);
+        box-shadow:
+          0 34px 44px rgba(92, 106, 129, .14),
+          inset 0 1px 0 rgba(255,255,255,.96),
+          inset 0 -12px 28px rgba(197, 205, 218, .28);
+      }
+      .signal-login__disc-one {
+        width: 370px;
+        height: 142px;
+        left: 4px;
+        top: 122px;
+        transform: rotate(-8deg);
+      }
+      .signal-login__disc-two {
+        width: 420px;
+        height: 168px;
+        left: 80px;
+        top: 178px;
+        transform: rotate(12deg);
+      }
+      .signal-login__disc-three {
+        width: 500px;
+        height: 184px;
+        left: 112px;
+        top: 228px;
+        transform: rotate(12deg);
+        box-shadow:
+          0 38px 58px rgba(92, 106, 129, .16),
+          inset 0 1px 0 rgba(255,255,255,.96),
+          inset 0 -14px 30px rgba(197, 205, 218, .30);
+      }
+      .signal-login__tile {
+        width: 214px;
+        height: 214px;
+        left: 190px;
+        top: 54px;
+        border-radius: 34px;
+        background:
+          linear-gradient(150deg, rgba(255,255,255,.24), transparent 24%),
+          linear-gradient(145deg, #686e77 0%, #343941 45%, #0b0e14 100%);
+        box-shadow:
+          0 32px 42px rgba(35, 43, 56, .28),
+          -16px 18px 22px rgba(29, 36, 47, .22),
+          inset 0 1px 0 rgba(255,255,255,.22),
+          inset -9px -12px 18px rgba(0,0,0,.34);
+        transform: rotate(-8deg) skewY(-1deg);
+        transform-origin: center;
+      }
+      .signal-login__tile::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        border-radius: inherit;
+        background: linear-gradient(90deg, rgba(0,0,0,.28), transparent 32%);
+        transform: translate(-12px, 12px);
+        z-index: -1;
+        filter: blur(.2px);
+      }
+      .signal-login__tile::after {
+        content: "";
+        position: absolute;
+        width: 92px;
+        height: 92px;
+        left: 61px;
+        top: 61px;
+        background: #fff;
+        clip-path: polygon(50% 0, 62% 36%, 100% 50%, 62% 64%, 50% 100%, 38% 64%, 0 50%, 38% 36%);
+        filter: drop-shadow(0 3px 5px rgba(255,255,255,.28));
+      }
+      .signal-login__card {
+        width: 540px;
+        justify-self: end;
+        padding: 44px 40px;
+        border: 1px solid #dbe2ec;
+        border-radius: 20px;
+        background: rgba(255,255,255,.84);
+        box-shadow:
+          0 28px 82px rgba(68, 87, 115, .13),
+          inset 0 1px 0 rgba(255,255,255,.98);
+        backdrop-filter: blur(22px);
+        -webkit-backdrop-filter: blur(22px);
+      }
+      .signal-login h1 {
+        margin: 0 0 12px;
+        color: #111827;
+        font-size: clamp(30px, 2.4vw, 34px);
+        line-height: 1.05;
+        font-weight: 780;
+        letter-spacing: 0;
+      }
+      .signal-login p {
+        margin: 0 0 42px;
+        color: #9aa2b1;
+        font-size: 18px;
+        line-height: 1.45;
+      }
+      .signal-login form {
+        display: grid;
+        gap: 28px;
+      }
+      .signal-login label:not(.signal-login__remember) {
+        display: grid;
+        gap: 12px;
+        color: #111827;
+        font-size: 16px;
+        font-weight: 780;
+      }
+      .signal-login__field {
+        position: relative;
+        display: flex;
+        align-items: center;
+      }
+      .signal-login__eye-button {
+        position: absolute;
+        right: 17px;
+        width: 28px;
+        height: 28px;
+        min-height: 0;
+        padding: 0;
+        border: 0;
+        border-radius: 8px;
+        display: grid;
+        place-items: center;
+        background: transparent;
+        box-shadow: none;
+        cursor: pointer;
+      }
+      .signal-login__eye {
+        width: 23px;
+        height: 23px;
+        color: #9ba4b3;
+      }
+      .signal-login__eye-button:hover .signal-login__eye {
+        color: #6b7280;
+      }
+      .signal-login input:not([type="checkbox"]) {
+        width: 100%;
+        min-height: 54px;
+        border: 1px solid #dce3ee;
+        border-radius: 10px;
+        padding: 0 48px 0 18px;
+        color: #111827;
+        background: rgba(255,255,255,.76);
+        outline: none;
+        font: 600 16px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,.94);
+      }
+      .signal-login input::placeholder { color: #a5adba; }
+      .signal-login input:not([type="checkbox"]):focus {
+        border-color: rgba(107,126,199,.72);
+        box-shadow: 0 0 0 4px rgba(107,126,199,.10), inset 0 1px 0 rgba(255,255,255,.94);
+      }
+      .signal-login__row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        margin-top: -4px;
+        color: #8f98a8;
+        font-size: 14px;
+      }
+      .signal-login__row span {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        white-space: nowrap;
+      }
+      .signal-login__remember {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        white-space: nowrap;
+        color: #8f98a8;
+        font-size: 14px;
+        font-weight: 650;
+        cursor: pointer;
+      }
+      .signal-login__remember input {
+        position: absolute;
+        opacity: 0;
+        pointer-events: none;
+      }
+      .signal-login__remember span {
+        width: 18px;
+        height: 18px;
+        border-radius: 5px;
+        border: 1px solid #dce3ee;
+        background: #fff;
+        display: inline-block;
+      }
+      .signal-login__remember input:checked + span {
+        border-color: #111827;
+        background:
+          linear-gradient(135deg, #111827, #252b35);
+        box-shadow: inset 0 0 0 4px #fff;
+      }
+      .signal-login__row a {
+        color: #687bc2;
+        text-decoration: none;
+        font-weight: 650;
+      }
+      .signal-login button[type="submit"] {
+        border: 0;
+        min-height: 56px;
+        border-radius: 10px;
+        padding: 0 20px;
+        color: #fff;
+        background: linear-gradient(135deg, #090d14, #161b23);
+        font: 780 16px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        cursor: pointer;
+        box-shadow: 0 18px 34px rgba(14,21,32,.18), inset 0 1px 0 rgba(255,255,255,.12);
+        transition: transform .18s ease, background .18s ease, box-shadow .18s ease;
+      }
+      .signal-login button[type="submit"]:hover {
+        transform: translateY(-1px);
+        background: linear-gradient(135deg, #151b25, #202734);
+        box-shadow: 0 22px 42px rgba(14,21,32,.22), inset 0 1px 0 rgba(255,255,255,.14);
+      }
+      .signal-login__divider {
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        align-items: center;
+        gap: 18px;
+        color: #a6afbd;
+        text-align: center;
+        font-size: 14px;
+      }
+      .signal-login__divider::before,
+      .signal-login__divider::after {
+        content: "";
+        height: 1px;
+        background: #e1e7f0;
+      }
+      .signal-login__google {
+        min-height: 54px;
+        border-radius: 10px;
+        border: 1px solid #dce3ee;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 14px;
+        color: #111827;
+        text-decoration: none;
+        font-weight: 720;
+        background: rgba(255,255,255,.76);
+        transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease;
+      }
+      .signal-login__google:hover {
+        transform: translateY(-1px);
+        border-color: #cbd5e1;
+        box-shadow: 0 16px 32px rgba(68, 87, 115, .10);
+      }
+      .signal-login__error {
+        min-height: 20px;
+        color: #d72f48;
+        font-weight: 780;
+        font-size: 14px;
+        text-align: center;
+      }
+      .signal-login__signup {
+        margin-top: 20px;
+        text-align: center;
+        color: #8b95a5;
+        font-size: 15px;
+      }
+      .signal-login__signup a {
+        color: #687bc2;
+        text-decoration: none;
+        font-weight: 650;
+      }
+      @media (max-width: 980px) {
+        .signal-login__shell {
+          width: min(100%, 720px);
+          height: auto;
+          min-height: 0;
+          grid-template-columns: 1fr;
+          gap: 34px;
+          padding: 44px;
+        }
+        .signal-login__brand-panel {
+          display: grid;
+          grid-template-columns: auto 1fr;
+          gap: 18px;
+          align-items: center;
+        }
+        .signal-login__logo { margin: 0; }
+        .signal-login__stage { display: none; }
+        .signal-login__card { width: 100%; }
+      }
+      @media (max-width: 560px) {
+        .signal-login {
+          padding: max(18px, env(safe-area-inset-top)) 12px max(18px, env(safe-area-inset-bottom));
+        }
+        .signal-login__shell {
+          border-radius: 26px;
+          padding: 22px;
+          gap: 20px;
+        }
+        .signal-login__brand-panel {
+          grid-template-columns: 1fr;
+          gap: 12px;
+        }
+        .signal-login__logo {
+          width: 54px;
+          height: 54px;
+          border-radius: 15px;
+        }
+        .signal-login__logo svg {
+          width: 30px;
+          height: 30px;
+        }
+        .signal-login__brand-panel h2 {
+          font-size: 28px;
+          margin-bottom: 6px;
+        }
+        .signal-login__brand-panel p {
+          font-size: 17px;
+        }
+        .signal-login__card {
+          padding: 24px 18px;
+          border-radius: 18px;
+        }
+        .signal-login h1 {
+          font-size: 30px;
+        }
+        .signal-login p {
+          margin-bottom: 28px;
+          font-size: 16px;
+        }
+        .signal-login form {
+          gap: 20px;
+        }
+        .signal-login__row {
+          align-items: flex-start;
+          flex-direction: column;
+          gap: 8px;
+        }
+      }
+    `;
+    document.head.appendChild(style);
+    document.body.appendChild(wrap);
+    const form = document.getElementById("signal-auth-form");
+    const passwordInput = form.querySelector('input[name="password"]');
+    const eyeButton = form.querySelector(".signal-login__eye-button");
+    if (passwordInput && eyeButton) {
+      eyeButton.addEventListener("click", () => {
+        const visible = passwordInput.type === "text";
+        passwordInput.type = visible ? "password" : "text";
+        eyeButton.setAttribute("aria-pressed", visible ? "false" : "true");
+        eyeButton.setAttribute("aria-label", visible ? "Показать пароль" : "Скрыть пароль");
+      });
+    }
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      const data = new FormData(form);
+      const user = String(data.get("user") || "").trim();
+      const password = String(data.get("password") || "");
+      const digest = await sha256(`${AUTH_SALT}:${user}:${password}`);
+      if (user === AUTH_USER && digest === AUTH_DIGEST) {
+        localStorage.setItem(SESSION_KEY, JSON.stringify({
+          digest,
+          createdAt: Date.now()
+        }));
+        location.reload();
+      } else {
+        renderLogin("Неверный логин или пароль.");
+      }
+    });
+  }
+
+  if (!crypto.subtle) {
+    renderLogin("Браузер не поддерживает защищенную проверку пароля.");
+    return;
+  }
+  if (validStoredSession()) {
+    reveal();
+  } else {
+    renderLogin();
+  }
+})();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="0.55" stop-color="#172033"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#ecfeff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect x="0" y="548" width="1200" height="127" fill="#06111f" opacity="0.76"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="72" y="72" font-size="22" font-weight="700" fill="#5eead4">The Signal / Сигнал</text>
+    <text x="72" y="176" font-size="52" font-weight="850" fill="#ffffff">Перед подпиской</text>
+    <text x="72" y="240" font-size="52" font-weight="850" fill="#ffffff">найдите кнопку</text>
+    <text x="76" y="326" font-size="36" font-weight="850" fill="#fef3c7">отмены</text>
+    <text x="76" y="374" font-size="36" font-weight="850" fill="#fef3c7">до оплаты</text>
+    <text x="78" y="462" font-size="27" fill="#dbeafe">Если кнопку не найти за 30 секунд,</text>
+    <text x="78" y="502" font-size="27" fill="#dbeafe">это уже часть цены.</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="754" y="110" width="366" height="398" rx="24" fill="url(#card)"/>
+    <text x="937" y="168" text-anchor="middle" font-size="26" font-weight="850" fill="#0f172a">Пробный период</text>
+    <rect x="804" y="212" width="266" height="56" rx="14" fill="#f8fafc"/>
+    <text x="834" y="247" font-size="20" font-weight="800" fill="#334155">1 месяц</text>
+    <text x="1040" y="247" text-anchor="end" font-size="22" font-weight="850" fill="#166534">99 ₽</text>
+    <rect x="804" y="300" width="266" height="56" rx="14" fill="#fff7ed"/>
+    <text x="834" y="335" font-size="20" font-weight="800" fill="#9a3412">потом</text>
+    <text x="1040" y="335" text-anchor="end" font-size="22" font-weight="850" fill="#991b1b">799 ₽</text>
+    <rect x="820" y="392" width="234" height="52" rx="26" fill="#0f766e"/>
+    <text x="937" y="425" text-anchor="middle" font-size="20" font-weight="850" fill="#ffffff">отменить</text>
+  </g>
+  <text x="600" y="626" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="850" fill="#ffffff">Честная подписка не прячет выход</text>
+</svg>

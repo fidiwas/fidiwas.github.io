@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#ccfbf1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="72" y="70" font-size="22" font-weight="700" fill="#0f766e">The Signal / Сигнал</text>
+    <text x="600" y="122" text-anchor="middle" font-size="42" font-weight="850" fill="#0f172a">Cloud-first и local-first</text>
+    <text x="600" y="162" text-anchor="middle" font-size="22" fill="#475569">Один путь проще на старте. Другой дает больше контроля в долгую.</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="104" y="220" width="436" height="342" rx="24" fill="#ffffff"/>
+    <text x="322" y="268" text-anchor="middle" font-size="31" font-weight="850" fill="#0f172a">cloud-first</text>
+    <rect x="154" y="316" width="336" height="50" rx="12" fill="#ecfeff"/>
+    <text x="322" y="348" text-anchor="middle" font-size="20" font-weight="800" fill="#155e75">быстрый старт</text>
+    <rect x="154" y="386" width="336" height="50" rx="12" fill="#fef3c7"/>
+    <text x="322" y="418" text-anchor="middle" font-size="20" font-weight="800" fill="#92400e">зависит от сервера</text>
+    <rect x="154" y="456" width="336" height="50" rx="12" fill="#fee2e2"/>
+    <text x="322" y="488" text-anchor="middle" font-size="20" font-weight="800" fill="#991b1b">часть функций в тарифе</text>
+    <rect x="660" y="220" width="436" height="342" rx="24" fill="#0f172a"/>
+    <text x="878" y="268" text-anchor="middle" font-size="31" font-weight="850" fill="#ffffff">local-first</text>
+    <rect x="710" y="316" width="336" height="50" rx="12" fill="#dcfce7"/>
+    <text x="878" y="348" text-anchor="middle" font-size="20" font-weight="800" fill="#166534">работает дома</text>
+    <rect x="710" y="386" width="336" height="50" rx="12" fill="#ede9fe"/>
+    <text x="878" y="418" text-anchor="middle" font-size="20" font-weight="800" fill="#5b21b6">больше приватности</text>
+    <rect x="710" y="456" width="336" height="50" rx="12" fill="#fff7ed"/>
+    <text x="878" y="488" text-anchor="middle" font-size="20" font-weight="800" fill="#9a3412">сложнее настройка</text>
+  </g>
+  <text x="600" y="614" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="850" fill="#0f172a">Удобство сегодня не должно ломать владение завтра</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#0b1020"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="72" y="70" font-size="22" font-weight="700" fill="#5eead4">The Signal / Сигнал</text>
+    <text x="600" y="122" text-anchor="middle" font-size="42" font-weight="850" fill="#ffffff">Что может пойти не так</text>
+    <text x="600" y="162" text-anchor="middle" font-size="22" fill="#cbd5e1">AI-покупка выглядит простой, пока не появляется спор</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="96" y="230" width="220" height="130" rx="20" fill="#172033" stroke="#334155"/>
+    <text x="206" y="275" text-anchor="middle" font-size="25" font-weight="850" fill="#ffffff">не тот товар</text>
+    <text x="206" y="315" text-anchor="middle" font-size="17" fill="#cbd5e1">агент понял</text>
+    <text x="206" y="340" text-anchor="middle" font-size="17" fill="#cbd5e1">запрос иначе</text>
+    <rect x="366" y="230" width="220" height="130" rx="20" fill="#172033" stroke="#334155"/>
+    <text x="476" y="275" text-anchor="middle" font-size="23" font-weight="850" fill="#ffffff">скрытая реклама</text>
+    <text x="476" y="315" text-anchor="middle" font-size="17" fill="#cbd5e1">совет похож</text>
+    <text x="476" y="340" text-anchor="middle" font-size="17" fill="#cbd5e1">на рекомендацию</text>
+    <rect x="636" y="230" width="220" height="130" rx="20" fill="#172033" stroke="#334155"/>
+    <text x="746" y="275" text-anchor="middle" font-size="25" font-weight="850" fill="#ffffff">цена выше</text>
+    <text x="746" y="315" text-anchor="middle" font-size="17" fill="#cbd5e1">скидка исчезла</text>
+    <text x="746" y="340" text-anchor="middle" font-size="17" fill="#cbd5e1">перед оплатой</text>
+    <rect x="906" y="230" width="220" height="130" rx="20" fill="#172033" stroke="#334155"/>
+    <text x="1016" y="275" text-anchor="middle" font-size="25" font-weight="850" fill="#ffffff">спор неясен</text>
+    <text x="1016" y="315" text-anchor="middle" font-size="17" fill="#cbd5e1">банк, магазин</text>
+    <text x="1016" y="340" text-anchor="middle" font-size="17" fill="#cbd5e1">или платформа?</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="204" y="448" width="792" height="86" rx="24" fill="#fef3c7"/>
+    <text x="600" y="490" text-anchor="middle" font-size="25" font-weight="850" fill="#0f172a">главный вопрос - не “купит ли”, а “как отменить”</text>
+    <text x="600" y="516" text-anchor="middle" font-size="19" fill="#334155">без журнала решений покупатель спорит вслепую</text>
+  </g>
+</svg>

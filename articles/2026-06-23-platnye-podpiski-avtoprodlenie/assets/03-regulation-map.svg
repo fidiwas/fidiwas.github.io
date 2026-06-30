@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06101f"/>
+      <stop offset="1" stop-color="#0b2a3d"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#e0f2fe"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1200" height="675" fill="url(#bg)"/>
+  <g opacity="0.2" stroke="#7dd3fc" stroke-width="1">
+    <path d="M90 590 C260 495 480 515 640 410 C800 300 970 315 1120 250" fill="none"/>
+    <path d="M110 630 C310 520 500 545 700 440 C860 360 1000 360 1130 320" fill="none"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="70" y="76" font-size="22" font-weight="800" fill="#7dd3fc">The Signal / Сигнал</text>
+    <text x="70" y="150" font-size="54" font-weight="900" fill="#ffffff">Молчание уже не согласие</text>
+    <text x="72" y="200" font-size="25" fill="#cbd5e1">Разные страны спорят об одной кнопке — отменить</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="78" y="286" width="320" height="210" rx="28" fill="url(#panel)" stroke="#93c5fd" stroke-width="2"/>
+    <text x="238" y="344" text-anchor="middle" font-size="32" font-weight="900" fill="#0f172a">Россия</text>
+    <rect x="118" y="382" width="240" height="54" rx="16" fill="#dbeafe"/>
+    <text x="238" y="416" text-anchor="middle" font-size="21" font-weight="850" fill="#1d4ed8">отказ от списаний</text>
+    <text x="238" y="462" text-anchor="middle" font-size="20" font-weight="700" fill="#475569">с 1 марта 2026</text>
+    <rect x="440" y="286" width="320" height="210" rx="28" fill="url(#panel)" stroke="#34d399" stroke-width="2"/>
+    <text x="600" y="344" text-anchor="middle" font-size="32" font-weight="900" fill="#0f172a">Британия</text>
+    <rect x="480" y="382" width="240" height="54" rx="16" fill="#ccfbf1"/>
+    <text x="600" y="416" text-anchor="middle" font-size="21" font-weight="850" fill="#0f766e">subscription traps</text>
+    <text x="600" y="462" text-anchor="middle" font-size="20" font-weight="700" fill="#475569">напоминания и выход</text>
+    <rect x="802" y="286" width="320" height="210" rx="28" fill="url(#panel)" stroke="#facc15" stroke-width="2"/>
+    <text x="962" y="344" text-anchor="middle" font-size="32" font-weight="900" fill="#0f172a">США</text>
+    <rect x="842" y="382" width="240" height="54" rx="16" fill="#fef3c7"/>
+    <text x="962" y="416" text-anchor="middle" font-size="21" font-weight="850" fill="#92400e">click-to-cancel</text>
+    <text x="962" y="462" text-anchor="middle" font-size="20" font-weight="700" fill="#475569">спор продолжается</text>
+  </g>
+  <rect x="238" y="572" width="724" height="54" rx="20" fill="#071421" stroke="#38bdf8" stroke-opacity="0.7"/>
+  <text x="600" y="607" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="900" fill="#ecfeff">Общий вопрос: человек точно согласился платить дальше?</text>
+</svg>

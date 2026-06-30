@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06111f"/>
+      <stop offset="0.58" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#073042"/>
+    </linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect x="0" y="0" width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1010" cy="115" r="155" fill="#0ea5e9" opacity="0.15" filter="url(#soft)"/>
+  <circle cx="190" cy="595" r="170" fill="#14b8a6" opacity="0.13" filter="url(#soft)"/>
+  <g opacity="0.21" stroke="#7dd3fc" stroke-width="1">
+    <path d="M70 560 C260 480 430 508 630 410 C820 316 990 330 1132 245" fill="none"/>
+    <path d="M92 618 C300 520 520 548 710 445 C880 354 1018 366 1132 316" fill="none"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="70" y="76" font-size="23" font-weight="800" fill="#7dd3fc">The Signal / Сигнал</text>
+    <text x="70" y="146" font-size="52" font-weight="900" fill="#ffffff">Проверьте банк сегодня</text>
+    <text x="72" y="194" font-size="25" fill="#cbd5e1">Четыре пункта до нового кредита или вклада</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="96" y="270" width="470" height="112" rx="24" fill="#eff6ff" stroke="#60a5fa" stroke-width="2"/>
+    <text x="142" y="337" font-size="34" font-weight="900" fill="#0284c7">1</text>
+    <text x="332" y="318" text-anchor="middle" font-size="27" font-weight="900" fill="#0f172a">Полная стоимость</text>
+    <text x="332" y="354" text-anchor="middle" font-size="20" font-weight="750" fill="#475569">не рекламная ставка</text>
+    <rect x="634" y="270" width="470" height="112" rx="24" fill="#f0fdf4" stroke="#34d399" stroke-width="2"/>
+    <text x="680" y="337" font-size="34" font-weight="900" fill="#0f766e">2</text>
+    <text x="870" y="318" text-anchor="middle" font-size="27" font-weight="900" fill="#0f172a">Срок договора</text>
+    <text x="870" y="354" text-anchor="middle" font-size="20" font-weight="750" fill="#475569">меньший платеж не всегда выгода</text>
+    <rect x="96" y="430" width="470" height="112" rx="24" fill="#fff7ed" stroke="#fb923c" stroke-width="2"/>
+    <text x="142" y="497" font-size="34" font-weight="900" fill="#d97706">3</text>
+    <text x="332" y="478" text-anchor="middle" font-size="27" font-weight="900" fill="#0f172a">Страховки</text>
+    <text x="332" y="514" text-anchor="middle" font-size="20" font-weight="750" fill="#475569">считать вместе с кредитом</text>
+    <rect x="634" y="430" width="470" height="112" rx="24" fill="#fef2f2" stroke="#fb7185" stroke-width="2"/>
+    <text x="680" y="497" font-size="34" font-weight="900" fill="#e11d48">4</text>
+    <text x="870" y="478" text-anchor="middle" font-size="27" font-weight="900" fill="#0f172a">Запас денег</text>
+    <text x="870" y="514" text-anchor="middle" font-size="20" font-weight="750" fill="#475569">не вкладывать все до рубля</text>
+  </g>
+  <rect x="270" y="588" width="660" height="56" rx="20" fill="#061827" stroke="#0891b2" stroke-width="1.6"/>
+  <text x="600" y="624" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="900" fill="#ffffff">Решение начинается с расчета, а не с новости</text>
+</svg>

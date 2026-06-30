@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.55" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e0f2fe"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#020617" flood-opacity="0.34"/>
+    </filter>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="980" cy="120" r="230" fill="url(#glow)"/>
+  <rect x="0" y="548" width="1200" height="127" fill="#06101d" opacity="0.82"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="72" y="74" font-size="22" font-weight="700" fill="#5eead4">The Signal / Сигнал</text>
+    <text x="72" y="184" font-size="64" font-weight="850" fill="#ffffff">Не зовут на</text>
+    <text x="72" y="264" font-size="64" font-weight="850" fill="#ffffff">собеседование?</text>
+    <rect x="72" y="306" width="470" height="92" rx="24" fill="#facc15"/>
+    <text x="307" y="364" text-anchor="middle" font-size="34" font-weight="850" fill="#111827">Проверьте резюме</text>
+    <text x="76" y="448" font-size="27" fill="#dbeafe">Автоотказ не всегда значит,</text>
+    <text x="76" y="488" font-size="27" fill="#dbeafe">что вас видел человек.</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" filter="url(#shadow)">
+    <rect x="720" y="92" width="410" height="444" rx="28" fill="url(#paper)"/>
+    <text x="925" y="154" text-anchor="middle" font-size="26" font-weight="850" fill="#0f172a">AI screening</text>
+    <rect x="766" y="190" width="318" height="54" rx="14" fill="#f8fafc"/>
+    <text x="804" y="225" font-size="20" font-weight="800" fill="#334155">resume.pdf</text>
+    <circle cx="1050" cy="217" r="11" fill="#22c55e"/>
+    <rect x="766" y="266" width="318" height="82" rx="16" fill="#ecfeff"/>
+    <text x="925" y="303" text-anchor="middle" font-size="21" font-weight="850" fill="#155e75">совпадения</text>
+    <text x="925" y="329" text-anchor="middle" font-size="16" fill="#64748b">роль, навыки, опыт</text>
+    <rect x="766" y="362" width="318" height="82" rx="16" fill="#fff7ed"/>
+    <text x="925" y="399" text-anchor="middle" font-size="21" font-weight="850" fill="#9a3412">скоринг</text>
+    <text x="925" y="425" text-anchor="middle" font-size="16" fill="#64748b">до человека может не дойти</text>
+    <rect x="822" y="466" width="206" height="44" rx="22" fill="#0f766e"/>
+    <text x="925" y="495" text-anchor="middle" font-size="19" font-weight="850" fill="#ffffff">shortlist</text>
+  </g>
+  <text x="600" y="626" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="800" fill="#ffffff">Невидимый фильтр стал частью поиска работы</text>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#e0f2fe"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#0f172a" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="78" y="72" font-size="22" font-weight="700" fill="#0f766e">The Signal / Сигнал</text>
+    <text x="600" y="124" text-anchor="middle" font-size="42" font-weight="850" fill="#0f172a">5 правок резюме</text>
+    <text x="600" y="164" text-anchor="middle" font-size="22" fill="#475569">Чтобы его понял фильтр и не отверг человек</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" filter="url(#shadow)">
+    <rect x="112" y="220" width="300" height="118" rx="22" fill="#ffffff"/>
+    <text x="144" y="267" font-size="30" font-weight="850" fill="#14b8a6">01</text>
+    <text x="262" y="267" text-anchor="middle" font-size="24" font-weight="850" fill="#0f172a">Роль</text>
+    <text x="262" y="303" text-anchor="middle" font-size="18" fill="#64748b">назвать понятно</text>
+    <rect x="450" y="220" width="300" height="118" rx="22" fill="#ffffff"/>
+    <text x="482" y="267" font-size="30" font-weight="850" fill="#2563eb">02</text>
+    <text x="600" y="267" text-anchor="middle" font-size="24" font-weight="850" fill="#0f172a">Навыки</text>
+    <text x="600" y="303" text-anchor="middle" font-size="18" fill="#64748b">писать прямо</text>
+    <rect x="788" y="220" width="300" height="118" rx="22" fill="#ffffff"/>
+    <text x="820" y="267" font-size="30" font-weight="850" fill="#f59e0b">03</text>
+    <text x="938" y="267" text-anchor="middle" font-size="24" font-weight="850" fill="#0f172a">Результат</text>
+    <text x="938" y="303" text-anchor="middle" font-size="18" fill="#64748b">доказать цифрой</text>
+    <rect x="282" y="386" width="300" height="118" rx="22" fill="#ffffff"/>
+    <text x="314" y="433" font-size="30" font-weight="850" fill="#0f766e">04</text>
+    <text x="432" y="433" text-anchor="middle" font-size="24" font-weight="850" fill="#0f172a">Формат</text>
+    <text x="432" y="469" text-anchor="middle" font-size="18" fill="#64748b">без лишней графики</text>
+    <rect x="620" y="386" width="300" height="118" rx="22" fill="#ffffff"/>
+    <text x="652" y="433" font-size="30" font-weight="850" fill="#7c3aed">05</text>
+    <text x="770" y="433" text-anchor="middle" font-size="24" font-weight="850" fill="#0f172a">Адаптация</text>
+    <text x="770" y="469" text-anchor="middle" font-size="18" fill="#64748b">под вакансию</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="224" y="562" width="752" height="54" rx="27" fill="#0f172a"/>
+    <text x="600" y="597" text-anchor="middle" font-size="22" font-weight="850" fill="#ffffff">Не хитрить. Перевести опыт на понятный язык.</text>
+  </g>
+</svg>

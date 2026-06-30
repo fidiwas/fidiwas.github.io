@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#e0f2fe"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="72" y="70" font-size="22" font-weight="700" fill="#0f766e">The Signal / Сигнал</text>
+    <text x="600" y="122" text-anchor="middle" font-size="42" font-weight="850" fill="#0f172a">Пять вопросов перед покупкой</text>
+    <text x="600" y="162" text-anchor="middle" font-size="22" fill="#475569">Цена устройства - только начало стоимости умного дома</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="110" y="210" width="980" height="74" rx="18" fill="#ffffff"/>
+    <circle cx="154" cy="247" r="18" fill="#0f766e"/>
+    <text x="154" y="254" text-anchor="middle" font-size="21" font-weight="850" fill="#ffffff">1</text>
+    <text x="205" y="241" font-size="24" font-weight="850" fill="#0f172a">что работает без подписки?</text>
+    <text x="205" y="268" font-size="17" fill="#64748b">история видео, AI-поиск и уведомления часто живут в тарифе</text>
+    <rect x="110" y="302" width="980" height="74" rx="18" fill="#ffffff"/>
+    <circle cx="154" cy="339" r="18" fill="#0f766e"/>
+    <text x="154" y="346" text-anchor="middle" font-size="21" font-weight="850" fill="#ffffff">2</text>
+    <text x="205" y="333" font-size="24" font-weight="850" fill="#0f172a">что работает без интернета?</text>
+    <text x="205" y="360" font-size="17" fill="#64748b">свет, замок и сценарии не должны полностью зависеть от облака</text>
+    <rect x="110" y="394" width="980" height="74" rx="18" fill="#ffffff"/>
+    <circle cx="154" cy="431" r="18" fill="#0f766e"/>
+    <text x="154" y="438" text-anchor="middle" font-size="21" font-weight="850" fill="#ffffff">3</text>
+    <text x="205" y="425" font-size="24" font-weight="850" fill="#0f172a">что именно покрывает Matter?</text>
+    <text x="205" y="452" font-size="17" fill="#64748b">стандарт может дать базовую команду, но не все функции</text>
+    <rect x="110" y="486" width="980" height="74" rx="18" fill="#ffffff"/>
+    <circle cx="154" cy="523" r="18" fill="#0f766e"/>
+    <text x="154" y="530" text-anchor="middle" font-size="21" font-weight="850" fill="#ffffff">4</text>
+    <text x="205" y="517" font-size="24" font-weight="850" fill="#0f172a">что будет через три года?</text>
+    <text x="205" y="544" font-size="17" fill="#64748b">поддержка, приложение, серверы и цена владения важнее скидки</text>
+  </g>
+  <text x="600" y="628" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="850" fill="#0f172a">Умный дом стоит покупать глазами владельца, а не покупателя</text>
+</svg>

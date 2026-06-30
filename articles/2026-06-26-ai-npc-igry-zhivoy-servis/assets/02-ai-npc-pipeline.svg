@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#dbeafe"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="72" y="70" font-size="22" font-weight="700" fill="#0f766e">The Signal / Сигнал</text>
+    <text x="600" y="120" text-anchor="middle" font-size="42" font-weight="850" fill="#0f172a">Что внутри AI-NPC</text>
+    <text x="600" y="160" text-anchor="middle" font-size="22" fill="#475569">Персонаж кажется живым только когда вся цепочка работает без пауз и фантазий</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="70" y="236" width="150" height="118" rx="18" fill="#ffffff"/>
+    <text x="145" y="280" text-anchor="middle" font-size="22" font-weight="850" fill="#0f172a">игрок</text>
+    <text x="145" y="314" text-anchor="middle" font-size="15" fill="#64748b">голос или текст</text>
+    <rect x="264" y="236" width="150" height="118" rx="18" fill="#ecfeff"/>
+    <text x="339" y="280" text-anchor="middle" font-size="22" font-weight="850" fill="#155e75">ASR</text>
+    <text x="339" y="314" text-anchor="middle" font-size="15" fill="#64748b">распознает речь</text>
+    <rect x="458" y="236" width="150" height="118" rx="18" fill="#fef3c7"/>
+    <text x="533" y="276" text-anchor="middle" font-size="22" font-weight="850" fill="#92400e">контекст</text>
+    <text x="533" y="308" text-anchor="middle" font-size="15" fill="#64748b">мир, квест,</text>
+    <text x="533" y="330" text-anchor="middle" font-size="15" fill="#64748b">правила лора</text>
+    <rect x="652" y="236" width="150" height="118" rx="18" fill="#dcfce7"/>
+    <text x="727" y="280" text-anchor="middle" font-size="22" font-weight="850" fill="#166534">модель</text>
+    <text x="727" y="314" text-anchor="middle" font-size="15" fill="#64748b">ответ или план</text>
+    <rect x="846" y="236" width="150" height="118" rx="18" fill="#ede9fe"/>
+    <text x="921" y="280" text-anchor="middle" font-size="22" font-weight="850" fill="#5b21b6">действие</text>
+    <text x="921" y="314" text-anchor="middle" font-size="15" fill="#64748b">игровая логика</text>
+    <rect x="1040" y="236" width="120" height="118" rx="18" fill="#fff7ed"/>
+    <text x="1100" y="280" text-anchor="middle" font-size="22" font-weight="850" fill="#9a3412">голос</text>
+    <text x="1100" y="314" text-anchor="middle" font-size="15" fill="#64748b">анимация</text>
+  </g>
+  <g stroke="#0f766e" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M226 295 H256"/>
+    <path d="M420 295 H450"/>
+    <path d="M614 295 H644"/>
+    <path d="M808 295 H838"/>
+    <path d="M1002 295 H1032"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="214" y="438" width="774" height="84" rx="22" fill="#0f172a"/>
+    <text x="600" y="474" text-anchor="middle" font-size="24" font-weight="850" fill="#ffffff">самое сложное - не ответить, а не сломать игру</text>
+    <text x="600" y="506" text-anchor="middle" font-size="19" fill="#cbd5e1">latency, память, безопасность, права, QA и стоимость идут вместе</text>
+  </g>
+</svg>

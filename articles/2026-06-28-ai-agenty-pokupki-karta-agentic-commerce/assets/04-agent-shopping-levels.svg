@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#ccfbf1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="72" y="70" font-size="22" font-weight="700" fill="#0f766e">The Signal / Сигнал</text>
+    <text x="600" y="122" text-anchor="middle" font-size="42" font-weight="850" fill="#0f172a">Три уровня доверия</text>
+    <text x="600" y="162" text-anchor="middle" font-size="22" fill="#475569">Не все AI-покупки одинаково опасны</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="92" y="238" width="296" height="210" rx="24" fill="#ffffff"/>
+    <text x="240" y="292" text-anchor="middle" font-size="30" font-weight="850" fill="#0f172a">1. совет</text>
+    <text x="240" y="344" text-anchor="middle" font-size="20" fill="#475569">агент ищет</text>
+    <text x="240" y="374" text-anchor="middle" font-size="20" fill="#475569">и объясняет</text>
+    <text x="240" y="422" text-anchor="middle" font-size="18" font-weight="800" fill="#0f766e">оплата у человека</text>
+    <rect x="452" y="238" width="296" height="210" rx="24" fill="#ecfeff"/>
+    <text x="600" y="292" text-anchor="middle" font-size="30" font-weight="850" fill="#0f172a">2. корзина</text>
+    <text x="600" y="344" text-anchor="middle" font-size="20" fill="#475569">товар готов</text>
+    <text x="600" y="374" text-anchor="middle" font-size="20" fill="#475569">к покупке</text>
+    <text x="600" y="422" text-anchor="middle" font-size="18" font-weight="800" fill="#0f766e">финальный клик ваш</text>
+    <rect x="812" y="238" width="296" height="210" rx="24" fill="#fff7ed"/>
+    <text x="960" y="292" text-anchor="middle" font-size="30" font-weight="850" fill="#0f172a">3. автопокупка</text>
+    <text x="960" y="344" text-anchor="middle" font-size="20" fill="#475569">агент платит</text>
+    <text x="960" y="374" text-anchor="middle" font-size="20" fill="#475569">по правилам</text>
+    <text x="960" y="422" text-anchor="middle" font-size="18" font-weight="800" fill="#991b1b">нужны жесткие лимиты</text>
+  </g>
+  <text x="600" y="560" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="850" fill="#0f172a">на старте безопаснее: агент готовит, человек подтверждает</text>
+</svg>

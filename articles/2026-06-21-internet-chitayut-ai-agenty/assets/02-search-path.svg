@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="0.6" stop-color="#eef7ff"/>
+      <stop offset="1" stop-color="#ecfeff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#0f172a" flood-opacity="0.13"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <text x="76" y="78" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="800" fill="#0e7490">The Signal / Сигнал</text>
+  <text x="600" y="136" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="850" fill="#111827">Поиск меняет маршрут</text>
+  <text x="600" y="176" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#475569">Раньше вы шли к сайтам. Теперь ответ все чаще приходит через AI.</text>
+
+  <g filter="url(#shadow)" font-family="Arial, Helvetica, sans-serif">
+    <rect x="74" y="232" width="492" height="300" rx="34" fill="#ffffff"/>
+    <text x="320" y="286" text-anchor="middle" font-size="28" font-weight="850" fill="#0f172a">Старый путь</text>
+    <g font-size="20" font-weight="850" text-anchor="middle">
+      <rect x="118" y="338" width="128" height="58" rx="18" fill="#e0f2fe" stroke="#7dd3fc"/>
+      <text x="182" y="374" fill="#075985">человек</text>
+      <rect x="270" y="338" width="128" height="58" rx="18" fill="#f1f5f9" stroke="#cbd5e1"/>
+      <text x="334" y="374" fill="#334155">поиск</text>
+      <rect x="422" y="338" width="100" height="58" rx="18" fill="#dcfce7" stroke="#86efac"/>
+      <text x="472" y="374" fill="#166534">сайт</text>
+    </g>
+    <path d="M248 367 H266" stroke="#64748b" stroke-width="6" stroke-linecap="round"/>
+    <path d="M400 367 H418" stroke="#64748b" stroke-width="6" stroke-linecap="round"/>
+    <text x="320" y="456" text-anchor="middle" font-size="22" font-weight="800" fill="#475569">человек сам читает</text>
+    <text x="320" y="488" text-anchor="middle" font-size="22" font-weight="800" fill="#475569">и сравнивает источники</text>
+
+    <rect x="634" y="232" width="492" height="300" rx="34" fill="#0f172a"/>
+    <text x="880" y="286" text-anchor="middle" font-size="28" font-weight="850" fill="#ffffff">Новый путь</text>
+    <g font-size="20" font-weight="850" text-anchor="middle">
+      <rect x="686" y="338" width="128" height="58" rx="18" fill="#e0f2fe" stroke="#7dd3fc"/>
+      <text x="750" y="374" fill="#075985">человек</text>
+      <rect x="838" y="326" width="104" height="82" rx="24" fill="#2dd4bf" stroke="#99f6e4"/>
+      <text x="890" y="361" fill="#052e16">AI</text>
+      <text x="890" y="386" font-size="15" fill="#064e3b">сводка</text>
+      <rect x="966" y="338" width="112" height="58" rx="18" fill="#fff7ed" stroke="#fed7aa"/>
+      <text x="1022" y="374" fill="#9a3412">сайты</text>
+    </g>
+    <path d="M816 367 H834" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+    <path d="M944 367 H962" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+    <text x="880" y="456" text-anchor="middle" font-size="22" font-weight="800" fill="#cbd5e1">AI читает, сокращает</text>
+    <text x="880" y="488" text-anchor="middle" font-size="22" font-weight="800" fill="#cbd5e1">и выбирает порядок</text>
+  </g>
+</svg>

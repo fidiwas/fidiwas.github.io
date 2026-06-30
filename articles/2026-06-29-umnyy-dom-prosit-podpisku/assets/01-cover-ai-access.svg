@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07111f"/>
+      <stop offset="55%" stop-color="#0c1b2c"/>
+      <stop offset="100%" stop-color="#0a302e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7fbff"/>
+      <stop offset="100%" stop-color="#dff8f2"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="18" flood-color="#020817" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1010" cy="150" r="230" fill="#54e4c7" opacity="0.08"/>
+  <circle cx="920" cy="520" r="360" fill="#3a86ff" opacity="0.08"/>
+  <path d="M700 130 C810 95 940 105 1055 170" fill="none" stroke="#6ee7ff" stroke-width="2" opacity="0.32"/>
+  <path d="M690 545 C820 500 965 500 1085 565" fill="none" stroke="#3ef0bd" stroke-width="2" opacity="0.24"/>
+
+  <text x="70" y="58" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#48f0c2">The Signal / Сигнал</text>
+
+  <text x="70" y="196" font-family="Inter, Arial, sans-serif" font-size="76" font-weight="900" fill="#f5fbff">ИИ не для</text>
+  <text x="70" y="286" font-family="Inter, Arial, sans-serif" font-size="76" font-weight="900" fill="#f5fbff">всех</text>
+  <text x="72" y="355" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="800" fill="#fff1b8">Кто получит фору?</text>
+
+  <rect x="72" y="422" width="322" height="72" rx="22" fill="#fff1b8" opacity="0.98"/>
+  <text x="233" y="466" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900" fill="#172033">ранний доступ</text>
+  <text x="74" y="548" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="600" fill="#b8c5d8">Сильная модель сначала меняет работу</text>
+  <text x="74" y="579" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="600" fill="#b8c5d8">у тех, кто получил ее раньше</text>
+
+  <g filter="url(#soft)">
+    <rect x="742" y="130" width="340" height="405" rx="40" fill="url(#card)"/>
+    <rect x="790" y="200" width="244" height="220" rx="28" fill="#ffffff"/>
+    <rect x="798" y="238" width="228" height="48" rx="16" fill="#edf5ff"/>
+    <rect x="798" y="306" width="228" height="48" rx="16" fill="#e8fff7"/>
+    <text x="912" y="184" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="900" fill="#172033">доступ открыт</text>
+    <text x="912" y="268" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800" fill="#172033">крупным клиентам</text>
+    <text x="912" y="336" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" fill="#14795f">раньше рынка</text>
+    <rect x="800" y="442" width="224" height="56" rx="18" fill="#0c8b74"/>
+    <text x="912" y="477" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="900" fill="#ffffff">получить фору</text>
+  </g>
+</svg>

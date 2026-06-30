@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>The Signal / Сигнал · Панель публикаций</title>
+  
+<link rel="icon" href="/favicon.ico" sizes="any" />
+<link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" href="/favicon-64.png" />
+
+  
+<link rel="canonical" href="https://fidiwas.github.io/" />
+<meta name="description" content="Редакционная панель для Дзен и Telegram: дни публикаций, тексты, визуалы, источники и статус готовности." />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="The Signal / Сигнал" />
+<meta property="og:title" content="The Signal / Сигнал — панель публикаций" />
+<meta property="og:description" content="Редакционная панель для Дзен и Telegram: дни публикаций, тексты, визуалы, источники и статус готовности." />
+<meta property="og:url" content="https://fidiwas.github.io/" />
+<meta property="og:image" content="https://fidiwas.github.io/panel_assets/social-preview.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="The Signal / Сигнал — панель публикаций" />
+<meta name="twitter:description" content="Редакционная панель для Дзен и Telegram: дни публикаций, тексты, визуалы, источники и статус готовности." />
+<meta name="twitter:image" content="https://fidiwas.github.io/panel_assets/social-preview.png" />
+
+  <style>
+    :root {
+      color-scheme: light;
+      --text: #101827;
+      --muted: #687484;
+      --line: #dbe4ef;
+      --soft: #f6f9fd;
+      --accent: #62c9ad;
+      --blue: #7eb8ff;
+    }
+    * { box-sizing: border-box; letter-spacing: 0; }
+    html { min-height: 100%; background: #f7faff; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at 17% 10%, rgba(126, 184, 255, .24), transparent 25rem),
+        radial-gradient(circle at 85% 18%, rgba(98, 201, 173, .18), transparent 25rem),
+        linear-gradient(180deg, #ffffff 0%, #f5f8fc 100%);
+    }
+    .page {
+      width: min(1180px, calc(100% - 44px));
+      margin: 0 auto;
+      padding: max(26px, env(safe-area-inset-top)) 0 max(34px, env(safe-area-inset-bottom));
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      padding: 10px 0 44px;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 850;
+      font-size: 19px;
+    }
+    .brand img {
+      width: 48px;
+      height: 48px;
+      border-radius: 16px;
+      box-shadow: 0 14px 34px rgba(32, 74, 120, .16);
+    }
+    .login-link,
+    .hero-cta {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      border-radius: 999px;
+      padding: 0 20px;
+      color: #0e1726;
+      background: #fff;
+      border: 1px solid var(--line);
+      text-decoration: none;
+      font-weight: 850;
+      box-shadow: 0 18px 48px rgba(39, 66, 98, .10);
+    }
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.04fr) minmax(320px, .96fr);
+      gap: clamp(28px, 5vw, 70px);
+      align-items: center;
+      min-height: min(680px, calc(100svh - 140px));
+    }
+    .eyebrow {
+      color: var(--accent);
+      font-size: 17px;
+      font-weight: 850;
+      margin: 0 0 16px;
+    }
+    h1 {
+      max-width: 760px;
+      margin: 0;
+      font-size: clamp(46px, 7vw, 88px);
+      line-height: .95;
+      letter-spacing: 0;
+    }
+    .lead {
+      max-width: 650px;
+      margin: 24px 0 0;
+      color: var(--muted);
+      font-size: clamp(18px, 2vw, 23px);
+      line-height: 1.48;
+    }
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 34px;
+    }
+    .hero-cta {
+      min-height: 58px;
+      padding: 0 26px;
+      border: 0;
+      background: linear-gradient(135deg, #c9fff0, #c6ddff);
+      box-shadow: 0 20px 58px rgba(96, 150, 230, .22);
+    }
+    .hero-note {
+      display: inline-flex;
+      align-items: center;
+      min-height: 58px;
+      color: var(--muted);
+      font-weight: 750;
+    }
+    .phone-card {
+      width: min(100%, 440px);
+      justify-self: end;
+      border: 1px solid rgba(210, 220, 232, .78);
+      border-radius: 46px;
+      padding: clamp(24px, 4vw, 36px);
+      background: rgba(255, 255, 255, .76);
+      box-shadow: 0 34px 110px rgba(32, 74, 120, .15), inset 0 1px 0 rgba(255,255,255,.85);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+    }
+    .signal-icon {
+      width: 86px;
+      height: 86px;
+      margin: 0 auto 24px;
+      border-radius: 24px;
+      display: grid;
+      place-items: center;
+      color: #6fbab1;
+      background: linear-gradient(135deg, rgba(220, 253, 246, .94), rgba(232, 246, 255, .94));
+      font-size: 42px;
+      font-weight: 700;
+    }
+    .phone-card h2 {
+      margin: 0;
+      text-align: center;
+      font-size: clamp(33px, 5vw, 48px);
+      line-height: 1.03;
+    }
+    .phone-card p {
+      max-width: 320px;
+      margin: 16px auto 0;
+      text-align: center;
+      color: var(--muted);
+      font-size: 18px;
+      line-height: 1.52;
+    }
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 28px;
+    }
+    .feature {
+      min-height: 96px;
+      border-radius: 22px;
+      padding: 16px;
+      background: #fff;
+      border: 1px solid var(--line);
+    }
+    .feature strong {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 16px;
+    }
+    .feature span {
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.35;
+    }
+    .preview {
+      margin-top: clamp(32px, 7vw, 72px);
+      padding: 26px;
+      border-radius: 30px;
+      background: rgba(255,255,255,.72);
+      border: 1px solid var(--line);
+      box-shadow: 0 24px 70px rgba(32, 74, 120, .10);
+    }
+    .preview-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+      align-items: end;
+      margin-bottom: 16px;
+    }
+    .preview h2 {
+      margin: 0;
+      font-size: clamp(27px, 4vw, 40px);
+    }
+    .preview p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.45;
+    }
+    .preview-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .preview-card {
+      min-height: 150px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 17px;
+      border-radius: 22px;
+      color: inherit;
+      text-decoration: none;
+      background: #fff;
+      border: 1px solid var(--line);
+      transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease;
+    }
+    .preview-card:hover {
+      transform: translateY(-2px);
+      border-color: rgba(98, 201, 173, .72);
+      box-shadow: 0 18px 40px rgba(32, 74, 120, .12);
+    }
+    .preview-card span {
+      color: var(--accent);
+      font-weight: 850;
+      font-size: 14px;
+    }
+    .preview-card strong {
+      font-size: 18px;
+      line-height: 1.25;
+    }
+    .preview-card em {
+      margin-top: auto;
+      color: var(--muted);
+      font-style: normal;
+      font-size: 13px;
+      text-transform: uppercase;
+      font-weight: 800;
+    }
+    @media (max-width: 860px) {
+      .page { width: min(100% - 28px, 620px); }
+      header { padding-bottom: 26px; }
+      .brand img { width: 44px; height: 44px; }
+      .login-link { min-height: 44px; padding: 0 16px; }
+      .hero {
+        grid-template-columns: 1fr;
+        min-height: 0;
+        gap: 28px;
+      }
+      .phone-card { justify-self: stretch; width: 100%; border-radius: 34px; }
+      .feature-grid { grid-template-columns: 1fr; }
+      .preview { padding: 18px; border-radius: 24px; }
+      .preview-head { display: block; }
+      .preview-head p { margin-top: 8px; }
+      .preview-grid { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 430px) {
+      .page { width: min(100% - 24px, 390px); padding-top: max(16px, env(safe-area-inset-top)); }
+      header { gap: 10px; }
+      .brand { font-size: 17px; }
+      .login-link { font-size: 14px; }
+      h1 { font-size: clamp(41px, 12vw, 52px); }
+      .lead { font-size: 18px; }
+      .hero-actions { display: grid; }
+      .hero-note { min-height: 0; font-size: 14px; }
+      .phone-card { padding: 24px 18px; border-radius: 32px; }
+      .signal-icon { width: 72px; height: 72px; border-radius: 22px; font-size: 35px; }
+      .phone-card p { font-size: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <a class="brand" href="/" aria-label="The Signal">
+        <img src="/panel_assets/render_cards/brand-orb.png" alt="" />
+        <span>The Signal</span>
+      </a>
+      <a class="login-link" href="/login?next=/posts/2026-07-01-pered-knopkoy-razreshit-odin-vopros/dzen.html">Войти</a>
+    </header>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">The Signal / Сигнал</p>
+        <h1>Панель публикаций для Дзен и Telegram</h1>
+        <p class="lead">Здесь собраны редакционный календарь, готовые тексты, визуалы, источники и статусы публикаций. Главная страница открыта, рабочие материалы доступны только после входа.</p>
+        <div class="hero-actions">
+          <a class="hero-cta" href="/login?next=/posts/2026-07-01-pered-knopkoy-razreshit-odin-vopros/dzen.html">Открыть панель</a>
+          <span class="hero-note">Длинные разборы, короткие посты и визуальные пакеты в одном месте.</span>
+        </div>
+      </div>
+      <aside class="phone-card" aria-label="Что внутри">
+        <div class="signal-icon" aria-hidden="true">⌁</div>
+        <h2>Рабочее место редакции</h2>
+        <p>Выберите день, откройте материал, проверьте визуалы и закройте публикацию без лишних файловых переходов.</p>
+        <div class="feature-grid">
+          <div class="feature"><strong>Дзен</strong><span>Статьи, визуалы, заголовки и копирование.</span></div>
+          <div class="feature"><strong>Telegram</strong><span>Отдельные посты и быстрые форматы.</span></div>
+          <div class="feature"><strong>Календарь</strong><span>Сегодня, будущие дни и архив.</span></div>
+          <div class="feature"><strong>Контроль</strong><span>Статус дня и ручное закрытие после публикации.</span></div>
+        </div>
+      </aside>
+    </section>
+    <section class="preview">
+      <div class="preview-head">
+        <h2>Ближайшие материалы</h2>
+        <p>Карточки ведут в закрытую часть сайта.</p>
+      </div>
+      <div class="preview-grid">
+        <a class="preview-card" href="/login?next=/articles/2026-07-02-gadzhet-kuplen-ai-funkcii-po-tarifu/dzen.html">
+  <span>2026-07-02</span>
+  <strong>Гаджет куплен. Почему AI-функции все чаще идут по тарифу?</strong>
+  <em>Дзен</em>
+</a>
+<a class="preview-card" href="/login?next=/posts/2026-07-01-pered-knopkoy-razreshit-odin-vopros/dzen.html">
+  <span>2026-07-01</span>
+  <strong>Перед кнопкой “Разрешить” задайте один вопрос</strong>
+  <em>Telegram</em>
+</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

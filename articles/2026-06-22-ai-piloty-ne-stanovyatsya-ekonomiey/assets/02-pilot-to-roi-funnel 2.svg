@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#f8fafc"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="70" y="78" font-size="42" font-weight="850" fill="#0f172a">Где ломается AI-пилот</text>
+    <text x="72" y="118" font-size="22" fill="#475569">От красивого демо до денег есть несколько узких мест.</text>
+    <g>
+      <rect x="80" y="210" width="190" height="110" rx="22" fill="#dbeafe"/>
+      <text x="175" y="256" text-anchor="middle" font-size="28" font-weight="850" fill="#1e3a8a">Демо</text>
+      <text x="175" y="292" text-anchor="middle" font-size="18" fill="#1d4ed8">модель умеет</text>
+    </g>
+    <path d="M280 265 H360" stroke="#94a3b8" stroke-width="8" stroke-linecap="round"/>
+    <polygon points="360,265 338,249 338,281" fill="#94a3b8"/>
+    <g>
+      <rect x="370" y="190" width="210" height="150" rx="24" fill="#ccfbf1"/>
+      <text x="475" y="238" text-anchor="middle" font-size="26" font-weight="850" fill="#115e59">Процесс</text>
+      <text x="475" y="276" text-anchor="middle" font-size="18" fill="#0f766e">кто проверяет</text>
+      <text x="475" y="304" text-anchor="middle" font-size="18" fill="#0f766e">куда идет итог</text>
+    </g>
+    <path d="M590 265 H670" stroke="#94a3b8" stroke-width="8" stroke-linecap="round"/>
+    <polygon points="670,265 648,249 648,281" fill="#94a3b8"/>
+    <g>
+      <rect x="680" y="190" width="210" height="150" rx="24" fill="#fef3c7"/>
+      <text x="785" y="238" text-anchor="middle" font-size="26" font-weight="850" fill="#92400e">Метрика</text>
+      <text x="785" y="276" text-anchor="middle" font-size="18" fill="#b45309">что меняется</text>
+      <text x="785" y="304" text-anchor="middle" font-size="18" fill="#b45309">в деньгах</text>
+    </g>
+    <path d="M900 265 H980" stroke="#94a3b8" stroke-width="8" stroke-linecap="round"/>
+    <polygon points="980,265 958,249 958,281" fill="#94a3b8"/>
+    <g>
+      <rect x="990" y="210" width="150" height="110" rx="22" fill="#dcfce7"/>
+      <text x="1065" y="256" text-anchor="middle" font-size="28" font-weight="850" fill="#166534">ROI</text>
+      <text x="1065" y="292" text-anchor="middle" font-size="18" fill="#166534">результат</text>
+    </g>
+    <g>
+      <rect x="150" y="430" width="900" height="92" rx="24" fill="#0f172a"/>
+      <text x="600" y="470" text-anchor="middle" font-size="24" font-weight="850" fill="#ffffff">Самый частый разрыв: демо есть, процесса и метрики нет</text>
+      <text x="600" y="506" text-anchor="middle" font-size="20" fill="#cbd5e1">AI помогает человеку, но компания продолжает работать по-старому.</text>
+    </g>
+    <text x="600" y="610" text-anchor="middle" font-size="21" font-weight="800" fill="#0f172a">Экономика появляется только после интеграции в реальный маршрут работы.</text>
+  </g>
+</svg>

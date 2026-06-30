@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#0b1020"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="72" y="70" font-size="22" font-weight="700" fill="#5eead4">The Signal / Сигнал</text>
+    <text x="600" y="122" text-anchor="middle" font-size="42" font-weight="850" fill="#ffffff">Перед AI-покупкой</text>
+    <text x="600" y="162" text-anchor="middle" font-size="22" fill="#cbd5e1">Пять вопросов до того, как подключать карту</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="820">
+    <rect x="190" y="220" width="820" height="64" rx="18" fill="#172033" stroke="#334155"/>
+    <text x="230" y="260" fill="#5eead4">01</text>
+    <text x="306" y="260" fill="#ffffff">какой лимит на сумму?</text>
+    <rect x="190" y="302" width="820" height="64" rx="18" fill="#172033" stroke="#334155"/>
+    <text x="230" y="342" fill="#5eead4">02</text>
+    <text x="306" y="342" fill="#ffffff">какие категории разрешены?</text>
+    <rect x="190" y="384" width="820" height="64" rx="18" fill="#172033" stroke="#334155"/>
+    <text x="230" y="424" fill="#5eead4">03</text>
+    <text x="306" y="424" fill="#ffffff">нужен ли финальный клик?</text>
+    <rect x="190" y="466" width="820" height="64" rx="18" fill="#172033" stroke="#334155"/>
+    <text x="230" y="506" fill="#5eead4">04</text>
+    <text x="306" y="506" fill="#ffffff">видно ли, почему выбран товар?</text>
+    <rect x="190" y="548" width="820" height="64" rx="18" fill="#172033" stroke="#334155"/>
+    <text x="230" y="588" fill="#5eead4">05</text>
+    <text x="306" y="588" fill="#ffffff">кто принимает спор?</text>
+  </g>
+</svg>

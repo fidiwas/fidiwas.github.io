@@ -1,0 +1,42 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef8ff"/>
+      <stop offset="1" stop-color="#eafff8"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="20" flood-color="#2a4b68" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <text x="70" y="58" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#16b89c">The Signal / Сигнал</text>
+  <text x="600" y="112" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="900" fill="#111827">Что дешевеет первым?</text>
+  <text x="600" y="154" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600" fill="#607086">Не профессия целиком, а повторяемые задачи внутри дня</text>
+
+  <g filter="url(#shadow)" font-family="Inter, Arial, sans-serif">
+    <rect x="86" y="222" width="214" height="94" rx="24" fill="#ffffff"/>
+    <text x="193" y="259" text-anchor="middle" font-size="22" font-weight="900" fill="#101828">черновики</text>
+    <text x="193" y="292" text-anchor="middle" font-size="18" font-weight="700" fill="#7a8799">письма и отчеты</text>
+
+    <rect x="86" y="344" width="214" height="94" rx="24" fill="#ffffff"/>
+    <text x="193" y="381" text-anchor="middle" font-size="22" font-weight="900" fill="#101828">таблицы</text>
+    <text x="193" y="414" text-anchor="middle" font-size="18" font-weight="700" fill="#7a8799">проверка и сводки</text>
+
+    <rect x="86" y="466" width="214" height="94" rx="24" fill="#ffffff"/>
+    <text x="193" y="503" text-anchor="middle" font-size="22" font-weight="900" fill="#101828">поиск</text>
+    <text x="193" y="536" text-anchor="middle" font-size="18" font-weight="700" fill="#7a8799">сбор фактов</text>
+  </g>
+
+  <path d="M357 390 C445 330, 508 330, 596 390" fill="none" stroke="#15b79e" stroke-width="12" stroke-linecap="round"/>
+  <path d="M579 352 L628 390 L579 428" fill="none" stroke="#15b79e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g filter="url(#shadow)" font-family="Inter, Arial, sans-serif">
+    <rect x="684" y="228" width="430" height="326" rx="34" fill="#0f172a"/>
+    <text x="899" y="295" text-anchor="middle" font-size="34" font-weight="900" fill="#ffffff">Цена часа</text>
+    <text x="899" y="342" text-anchor="middle" font-size="34" font-weight="900" fill="#ffffff">меняется</text>
+    <rect x="762" y="386" width="274" height="68" rx="24" fill="#fff0b8"/>
+    <text x="899" y="429" text-anchor="middle" font-size="26" font-weight="900" fill="#7a4300">меньше рутины</text>
+    <text x="899" y="505" text-anchor="middle" font-size="22" font-weight="700" fill="#b8c8dc">сильнее тот, кто проверяет</text>
+  </g>
+  <text x="600" y="626" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#1f2937">Защищает не занятость, а измеримый результат</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#020617" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" fill="#fffdf7"/>
+  <circle cx="1020" cy="120" r="180" fill="#e0f2fe"/>
+  <circle cx="110" cy="610" r="170" fill="#dcfce7"/>
+
+  <text x="70" y="78" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="850" fill="#111827">Что проверить до 1 октября</text>
+  <text x="72" y="118" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#475569">Не паниковать, а привести в порядок то, от чего зависят споры и доверие.</text>
+
+  <g filter="url(#shadow)" font-family="Arial, Helvetica, sans-serif">
+    <rect x="78" y="190" width="318" height="300" rx="28" fill="#ffffff"/>
+    <text x="237" y="248" text-anchor="middle" font-size="30" font-weight="850" fill="#0f172a">Покупатель</text>
+    <text x="237" y="304" text-anchor="middle" font-size="22" fill="#334155">кто продавец</text>
+    <text x="237" y="352" text-anchor="middle" font-size="22" fill="#334155">что с документами</text>
+    <text x="237" y="400" text-anchor="middle" font-size="22" fill="#334155">условия возврата</text>
+    <text x="237" y="448" text-anchor="middle" font-size="22" fill="#334155">итоговая цена</text>
+
+    <rect x="441" y="190" width="318" height="300" rx="28" fill="#ecfeff"/>
+    <text x="600" y="248" text-anchor="middle" font-size="30" font-weight="850" fill="#0f172a">Продавец</text>
+    <text x="600" y="304" text-anchor="middle" font-size="22" fill="#0e7490">договор и редакции</text>
+    <text x="600" y="352" text-anchor="middle" font-size="22" fill="#0e7490">карточки товаров</text>
+    <text x="600" y="400" text-anchor="middle" font-size="22" fill="#0e7490">правила скидок</text>
+    <text x="600" y="448" text-anchor="middle" font-size="22" fill="#0e7490">основания блокировок</text>
+
+    <rect x="804" y="190" width="318" height="300" rx="28" fill="#fef3c7"/>
+    <text x="963" y="248" text-anchor="middle" font-size="30" font-weight="850" fill="#0f172a">ПВЗ</text>
+    <text x="963" y="304" text-anchor="middle" font-size="22" fill="#92400e">договор с платформой</text>
+    <text x="963" y="352" text-anchor="middle" font-size="22" fill="#92400e">взаиморасчеты</text>
+    <text x="963" y="400" text-anchor="middle" font-size="22" fill="#92400e">претензии и возвраты</text>
+    <text x="963" y="448" text-anchor="middle" font-size="22" fill="#92400e">рейтинг и санкции</text>
+  </g>
+
+  <rect x="180" y="554" width="840" height="58" rx="20" fill="#111827"/>
+  <text x="600" y="591" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="850" fill="#ffffff">Смысл не в ажиотаже, а в предсказуемости правил.</text>
+</svg>

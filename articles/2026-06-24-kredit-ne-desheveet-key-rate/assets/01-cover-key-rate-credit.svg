@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06111f"/>
+      <stop offset="0.55" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#073042"/>
+    </linearGradient>
+    <linearGradient id="mint" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6ee7f9"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#e0f2fe"/>
+    </linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#020617" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1015" cy="145" r="156" fill="#0ea5e9" opacity="0.16" filter="url(#soft)"/>
+  <circle cx="196" cy="585" r="170" fill="#14b8a6" opacity="0.13" filter="url(#soft)"/>
+  <g opacity="0.22" stroke="#7dd3fc" stroke-width="1">
+    <path d="M64 534 C220 480 420 500 602 414 C784 328 952 320 1134 238" fill="none"/>
+    <path d="M76 592 C260 512 486 548 690 438 C860 346 1010 360 1132 306" fill="none"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="72" y="70" font-size="23" font-weight="800" fill="#7dd3fc">The Signal / Сигнал</text>
+    <text x="72" y="160" font-size="66" font-weight="900" fill="#ffffff">Кредит</text>
+    <text x="72" y="238" font-size="66" font-weight="900" fill="#ffffff">не дешевеет?</text>
+    <text x="76" y="316" font-size="38" font-weight="900" fill="#fde68a">Что проверить</text>
+    <text x="76" y="366" font-size="38" font-weight="900" fill="#fde68a">сейчас</text>
+    <text x="76" y="474" font-size="27" fill="#cbd5e1">Ставку снизили до 14,25%.</text>
+    <text x="76" y="512" font-size="27" fill="#cbd5e1">Но банк считает вашу цену отдельно.</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" filter="url(#shadow)">
+    <rect x="733" y="104" width="394" height="446" rx="32" fill="url(#paper)" stroke="#bae6fd" stroke-width="2"/>
+    <text x="930" y="166" text-anchor="middle" font-size="28" font-weight="900" fill="#0f172a">Банковское приложение</text>
+    <rect x="777" y="210" width="306" height="76" rx="20" fill="#ecfeff"/>
+    <text x="822" y="249" font-size="22" font-weight="850" fill="#0e7490">Ставка ЦБ</text>
+    <text x="1048" y="250" text-anchor="end" font-size="26" font-weight="900" fill="#047857">14,25%</text>
+    <text x="822" y="271" font-size="16" font-weight="700" fill="#64748b">сегодня ниже, чем вчера</text>
+    <rect x="777" y="326" width="306" height="76" rx="20" fill="#fff7ed"/>
+    <text x="822" y="365" font-size="22" font-weight="850" fill="#9a3412">Кредит</text>
+    <text x="1048" y="366" text-anchor="end" font-size="26" font-weight="900" fill="#991b1b">дорогой</text>
+    <text x="822" y="390" font-size="16" font-weight="700" fill="#64748b">риск и договор важнее новости</text>
+    <rect x="777" y="442" width="306" height="76" rx="20" fill="#f0fdf4"/>
+    <text x="822" y="481" font-size="22" font-weight="850" fill="#166534">Вклад</text>
+    <text x="1048" y="482" text-anchor="end" font-size="26" font-weight="900" fill="#0f766e">уже ниже</text>
+    <text x="822" y="506" font-size="16" font-weight="700" fill="#64748b">новые условия меняются быстрее</text>
+  </g>
+  <rect x="72" y="590" width="650" height="56" rx="20" fill="url(#mint)" opacity="0.97"/>
+  <text x="397" y="626" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="900" fill="#04121f">Сначала считайте договор, потом ставку</text>
+</svg>

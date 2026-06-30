@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="11" refY="5" orient="auto">
+      <path d="M0,0 L12,5 L0,10 z" fill="#0f766e"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#020617" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" fill="#f8fafc"/>
+  <text x="70" y="78" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="800" fill="#0f172a">Куда уходит платеж</text>
+  <text x="72" y="118" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#475569">Скидка — это не только акция.</text>
+  <text x="72" y="148" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#475569">Это маршрут денег внутри экосистемы.</text>
+  <g filter="url(#shadow)" font-family="Arial, Helvetica, sans-serif">
+    <rect x="70" y="250" width="210" height="128" rx="24" fill="#ffffff"/>
+    <text x="175" y="300" text-anchor="middle" font-size="25" font-weight="800" fill="#0f172a">Покупатель</text>
+    <text x="175" y="332" text-anchor="middle" font-size="17" fill="#64748b">выбирает</text>
+    <text x="175" y="356" text-anchor="middle" font-size="17" fill="#64748b">способ оплаты</text>
+    <rect x="330" y="250" width="210" height="128" rx="24" fill="#ecfeff"/>
+    <text x="435" y="300" text-anchor="middle" font-size="25" font-weight="800" fill="#0f172a">Платформа</text>
+    <text x="435" y="334" text-anchor="middle" font-size="17" fill="#64748b">показывает</text>
+    <text x="435" y="358" text-anchor="middle" font-size="17" fill="#64748b">финальную цену</text>
+    <rect x="610" y="170" width="220" height="128" rx="24" fill="#dcfce7"/>
+    <text x="720" y="220" text-anchor="middle" font-size="25" font-weight="800" fill="#064e3b">Свой банк</text>
+    <text x="720" y="254" text-anchor="middle" font-size="17" fill="#166534">дает лучшую</text>
+    <text x="720" y="278" text-anchor="middle" font-size="17" fill="#166534">цену в корзине</text>
+    <rect x="610" y="368" width="220" height="128" rx="24" fill="#e2e8f0"/>
+    <text x="720" y="418" text-anchor="middle" font-size="25" font-weight="800" fill="#0f172a">Внешний банк</text>
+    <text x="720" y="452" text-anchor="middle" font-size="17" fill="#475569">спорит за</text>
+    <text x="720" y="476" text-anchor="middle" font-size="17" fill="#475569">равный доступ</text>
+    <rect x="895" y="250" width="225" height="128" rx="24" fill="#fff7ed"/>
+    <text x="1007.5" y="300" text-anchor="middle" font-size="25" font-weight="800" fill="#7c2d12">Продавец</text>
+    <text x="1007.5" y="334" text-anchor="middle" font-size="17" fill="#9a3412">считает</text>
+    <text x="1007.5" y="358" text-anchor="middle" font-size="17" fill="#9a3412">свою маржу</text>
+  </g>
+  <path d="M280 314H330" stroke="#0f766e" stroke-width="6" marker-end="url(#arrow)" fill="none"/>
+  <path d="M540 292C580 250 575 235 610 235" stroke="#0f766e" stroke-width="6" marker-end="url(#arrow)" fill="none"/>
+  <path d="M540 336C580 378 575 432 610 432" stroke="#0f766e" stroke-width="6" marker-end="url(#arrow)" fill="none"/>
+  <path d="M830 235C860 255 865 292 895 314" stroke="#0f766e" stroke-width="6" marker-end="url(#arrow)" fill="none"/>
+  <path d="M830 432C860 405 865 340 895 325" stroke="#0f766e" stroke-width="6" marker-end="url(#arrow)" fill="none"/>
+  <rect x="110" y="535" width="980" height="86" rx="20" fill="#0f172a"/>
+  <text x="600" y="570" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#ffffff">Главный вопрос: кто пишет правила финальной цены?</text>
+  <text x="600" y="600" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#ffffff">Рынок, платформа или регулятор?</text>
+</svg>
