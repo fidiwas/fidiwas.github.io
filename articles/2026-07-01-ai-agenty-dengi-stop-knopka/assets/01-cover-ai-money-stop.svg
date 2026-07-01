@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080d1a"/>
+      <stop offset="0.55" stop-color="#132033"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#ecfeff"/>
+    </linearGradient>
+    <linearGradient id="stop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ef4444"/>
+      <stop offset="1" stop-color="#991b1b"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#020617" flood-opacity="0.38"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1030" cy="86" r="120" fill="#5eead4" opacity="0.10"/>
+  <circle cx="111" cy="594" r="170" fill="#0f766e" opacity="0.16"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="72" y="72" font-size="22" font-weight="700" fill="#5eead4">The Signal / Сигнал</text>
+    <text x="72" y="176" font-size="54" font-weight="850" fill="#ffffff">ИИ пустят</text>
+    <text x="72" y="242" font-size="54" font-weight="850" fill="#ffffff">к платежам</text>
+    <text x="74" y="329" font-size="38" font-weight="850" fill="#fef3c7">Кто ответит</text>
+    <text x="74" y="381" font-size="38" font-weight="850" fill="#fef3c7">за ошибку?</text>
+    <text x="76" y="468" font-size="26" fill="#dbeafe">AI-агенты учатся выбирать,</text>
+    <text x="76" y="506" font-size="26" fill="#dbeafe">платить и спорить за нас.</text>
+  </g>
+  <g filter="url(#shadow)" font-family="Arial, Helvetica, sans-serif">
+    <rect x="700" y="92" width="395" height="426" rx="28" fill="url(#panel)"/>
+    <text x="898" y="154" text-anchor="middle" font-size="24" font-weight="850" fill="#0f172a">AI payment</text>
+    <rect x="756" y="199" width="283" height="58" rx="16" fill="#f8fafc"/>
+    <text x="784" y="235" font-size="20" font-weight="800" fill="#334155">лимит</text>
+    <text x="1012" y="235" text-anchor="end" font-size="22" font-weight="850" fill="#0f766e">5000 ₽</text>
+    <rect x="756" y="286" width="283" height="58" rx="16" fill="#fff7ed"/>
+    <text x="784" y="322" font-size="20" font-weight="800" fill="#9a3412">покупка</text>
+    <text x="1012" y="322" text-anchor="end" font-size="22" font-weight="850" fill="#991b1b">?</text>
+    <rect x="790" y="391" width="216" height="58" rx="29" fill="url(#stop)"/>
+    <text x="898" y="428" text-anchor="middle" font-size="23" font-weight="850" fill="#ffffff">STOP</text>
+  </g>
+  <g stroke="#5eead4" stroke-width="3" opacity="0.72">
+    <line x1="622" y1="229" x2="706" y2="229"/>
+    <line x1="622" y1="315" x2="706" y2="315"/>
+    <line x1="622" y1="420" x2="706" y2="420"/>
+  </g>
+  <rect x="0" y="552" width="1200" height="123" fill="#06111f" opacity="0.80"/>
+  <text x="600" y="627" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="850" fill="#ffffff">Деньги, лимиты и право остановить AI-покупку</text>
+</svg>

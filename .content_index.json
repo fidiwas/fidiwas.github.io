@@ -49,19 +49,19 @@
   },
   {
     "date": "2026-06-24",
-    "content_type": "короткий пост",
-    "title": "5 признаков, что скидка на маркетплейсе не так проста",
-    "status": "ready_for_final_fact_check",
-    "material_path": "/posts/2026-06-24-5-priznakov-skidka-ne-tak-prosta/material.html",
-    "panel_path": "/posts/2026-06-24-5-priznakov-skidka-ne-tak-prosta/dzen.html"
-  },
-  {
-    "date": "2026-06-24",
     "content_type": "статья",
     "title": "Кредит не дешевеет? Что проверить сейчас",
     "status": "ready_for_owner_review",
     "material_path": "/articles/2026-06-24-kredit-ne-desheveet-key-rate/material.html",
     "panel_path": "/articles/2026-06-24-kredit-ne-desheveet-key-rate/dzen.html"
+  },
+  {
+    "date": "2026-06-24",
+    "content_type": "короткий пост",
+    "title": "5 признаков, что скидка на маркетплейсе не так проста",
+    "status": "ready_for_final_fact_check",
+    "material_path": "/posts/2026-06-24-5-priznakov-skidka-ne-tak-prosta/material.html",
+    "panel_path": "/posts/2026-06-24-5-priznakov-skidka-ne-tak-prosta/dzen.html"
   },
   {
     "date": "2026-06-25",
@@ -110,6 +110,14 @@
     "status": "ready_for_final_fact_check",
     "material_path": "/articles/2026-06-30-ai-menyaet-rabotu-zarplata/material.html",
     "panel_path": "/articles/2026-06-30-ai-menyaet-rabotu-zarplata/dzen.html"
+  },
+  {
+    "date": "2026-07-01",
+    "content_type": "статья",
+    "title": "ИИ пустят к платежам. Кто ответит, если он ошибется?",
+    "status": "ready_for_final_fact_check",
+    "material_path": "/articles/2026-07-01-ai-agenty-dengi-stop-knopka/material.html",
+    "panel_path": "/articles/2026-07-01-ai-agenty-dengi-stop-knopka/dzen.html"
   },
   {
     "date": "2026-07-01",
